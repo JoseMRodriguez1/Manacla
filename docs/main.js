@@ -134,7 +134,7 @@ var AppModule = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "h1 {\r\n    color: #369;\r\n    font-family: Arial, Helvetica, sans-serif;\r\n    font-size: 250%;\r\n  }\r\n\r\nh2 {\r\n    text-align: center;\r\n}\r\n\r\n.contact {\r\n\theight: 100%;\r\n}\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvYm9keS9ib2R5LmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7SUFDSSxXQUFXO0lBQ1gseUNBQXlDO0lBQ3pDLGVBQWU7RUFDakI7O0FBRUY7SUFDSSxrQkFBa0I7QUFDdEI7O0FBRUE7Q0FDQyxZQUFZO0FBQ2IiLCJmaWxlIjoic3JjL2FwcC9ib2R5L2JvZHkuY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbImgxIHtcclxuICAgIGNvbG9yOiAjMzY5O1xyXG4gICAgZm9udC1mYW1pbHk6IEFyaWFsLCBIZWx2ZXRpY2EsIHNhbnMtc2VyaWY7XHJcbiAgICBmb250LXNpemU6IDI1MCU7XHJcbiAgfVxyXG5cclxuaDIge1xyXG4gICAgdGV4dC1hbGlnbjogY2VudGVyO1xyXG59XHJcblxyXG4uY29udGFjdCB7XHJcblx0aGVpZ2h0OiAxMDAlO1xyXG59Il19 */"
+module.exports = "h1 {\r\n    color: #369;\r\n    font-family: Arial, Helvetica, sans-serif;\r\n    font-size: 250%;\r\n  }\r\n\r\nh2 {\r\n    text-align: center;\r\n}\r\n\r\n.contact {\r\n\theight: 100%;\r\n}\r\n\r\n.logo-img {\r\n\ttext-align: center;\r\n}\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvYm9keS9ib2R5LmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7SUFDSSxXQUFXO0lBQ1gseUNBQXlDO0lBQ3pDLGVBQWU7RUFDakI7O0FBRUY7SUFDSSxrQkFBa0I7QUFDdEI7O0FBRUE7Q0FDQyxZQUFZO0FBQ2I7O0FBRUE7Q0FDQyxrQkFBa0I7QUFDbkIiLCJmaWxlIjoic3JjL2FwcC9ib2R5L2JvZHkuY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbImgxIHtcclxuICAgIGNvbG9yOiAjMzY5O1xyXG4gICAgZm9udC1mYW1pbHk6IEFyaWFsLCBIZWx2ZXRpY2EsIHNhbnMtc2VyaWY7XHJcbiAgICBmb250LXNpemU6IDI1MCU7XHJcbiAgfVxyXG5cclxuaDIge1xyXG4gICAgdGV4dC1hbGlnbjogY2VudGVyO1xyXG59XHJcblxyXG4uY29udGFjdCB7XHJcblx0aGVpZ2h0OiAxMDAlO1xyXG59XHJcblxyXG4ubG9nby1pbWcge1xyXG5cdHRleHQtYWxpZ246IGNlbnRlcjtcclxufSJdfQ== */"
 
 /***/ }),
 
@@ -145,7 +145,7 @@ module.exports = "h1 {\r\n    color: #369;\r\n    font-family: Arial, Helvetica,
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div style=\"text-align:center\">\n  <h1>\n    {{ title }}\n  </h1>\n</div>\n<div class=\"spacing\"></div>\n<h2>This website is currently under construction.</h2>\n<h2>Please contact us</h2>\n<div class=\"contact\">\n<iframe src=\"https://docs.google.com/forms/d/e/1FAIpQLScpQjk5xxdfcS2wHlvIlLxfjUHNGlSCNNCn9DH-cq8q5qXdbg/viewform?embedded=true\" width=\"100%\" scrolling=\"auto\" frameborder=\"0\" marginheight=\"400\" marginwidth=\"0\">Loading...</iframe>\n</div>\n<br />\n<br />\n<br />\n\n<div class=\"columns\">\n  <div class=\"column\">\n    \n  </div>\n  <div class=\"column\">\n    \n  </div>\n</div>\n"
+module.exports = "<div style=\"text-align:center\">\n  <h1>\n    {{ title }}\n  </h1>\n</div>\n<div class=\"spacing\"></div>\n<h2>This website is currently under construction.</h2>\n<h2>Please contact us</h2>\n<div class=\"contact\">\n<iframe src=\"https://docs.google.com/forms/d/e/1FAIpQLScpQjk5xxdfcS2wHlvIlLxfjUHNGlSCNNCn9DH-cq8q5qXdbg/viewform?embedded=true\" width=\"100%\" scrolling=\"auto\" frameborder=\"0\" marginheight=\"400\" marginwidth=\"0\">Loading...</iframe>\n</div>\n<br />\n<br />\n<br />\n<div class=\"logo-img\">\n<img onmousedown=\"return false;\" src=\"assets/img/Manacla.png\" width=\"400\">\n</div>\n<div class=\"columns\">\n  <div class=\"column\">\n    \n  </div>\n  <div class=\"column\">\n    \n  </div>\n</div>\n"
 
 /***/ }),
 
