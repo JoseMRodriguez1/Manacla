@@ -64,6 +64,9 @@ var AppComponent = /** @class */ (function () {
         this.companyName = 'Manacla';
         this.title = 'Manacla';
     }
+    AppComponent.prototype.ngOnInit = function () {
+        document.body.classList.add('bg-img');
+    };
     AppComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
             selector: 'app-root',
@@ -134,7 +137,7 @@ var AppModule = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "h1 {\r\n    color: #369;\r\n    font-family: Arial, Helvetica, sans-serif;\r\n    font-size: 250%;\r\n  }\r\n\r\nh2 {\r\n    text-align: center;\r\n}\r\n\r\n.contact {\r\n\theight: 100%;\r\n}\r\n\r\n.logo-img {\r\n\ttext-align: center;\r\n}\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvYm9keS9ib2R5LmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7SUFDSSxXQUFXO0lBQ1gseUNBQXlDO0lBQ3pDLGVBQWU7RUFDakI7O0FBRUY7SUFDSSxrQkFBa0I7QUFDdEI7O0FBRUE7Q0FDQyxZQUFZO0FBQ2I7O0FBRUE7Q0FDQyxrQkFBa0I7QUFDbkIiLCJmaWxlIjoic3JjL2FwcC9ib2R5L2JvZHkuY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbImgxIHtcclxuICAgIGNvbG9yOiAjMzY5O1xyXG4gICAgZm9udC1mYW1pbHk6IEFyaWFsLCBIZWx2ZXRpY2EsIHNhbnMtc2VyaWY7XHJcbiAgICBmb250LXNpemU6IDI1MCU7XHJcbiAgfVxyXG5cclxuaDIge1xyXG4gICAgdGV4dC1hbGlnbjogY2VudGVyO1xyXG59XHJcblxyXG4uY29udGFjdCB7XHJcblx0aGVpZ2h0OiAxMDAlO1xyXG59XHJcblxyXG4ubG9nby1pbWcge1xyXG5cdHRleHQtYWxpZ246IGNlbnRlcjtcclxufSJdfQ== */"
+module.exports = "h1 {\r\n    color: #fff;\r\n    font-family: Arial, Helvetica, sans-serif;\r\n    font-size: 250%;\r\n  }\r\n\r\nh2 {\r\n    text-align: center;\r\n}\r\n\r\n.contact {\r\n\theight: 100%;\r\n}\r\n\r\n.logo-img {\r\n\ttext-align: center;\r\n}\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvYm9keS9ib2R5LmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7SUFDSSxXQUFXO0lBQ1gseUNBQXlDO0lBQ3pDLGVBQWU7RUFDakI7O0FBRUY7SUFDSSxrQkFBa0I7QUFDdEI7O0FBRUE7Q0FDQyxZQUFZO0FBQ2I7O0FBRUE7Q0FDQyxrQkFBa0I7QUFDbkIiLCJmaWxlIjoic3JjL2FwcC9ib2R5L2JvZHkuY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbImgxIHtcclxuICAgIGNvbG9yOiAjZmZmO1xyXG4gICAgZm9udC1mYW1pbHk6IEFyaWFsLCBIZWx2ZXRpY2EsIHNhbnMtc2VyaWY7XHJcbiAgICBmb250LXNpemU6IDI1MCU7XHJcbiAgfVxyXG5cclxuaDIge1xyXG4gICAgdGV4dC1hbGlnbjogY2VudGVyO1xyXG59XHJcblxyXG4uY29udGFjdCB7XHJcblx0aGVpZ2h0OiAxMDAlO1xyXG59XHJcblxyXG4ubG9nby1pbWcge1xyXG5cdHRleHQtYWxpZ246IGNlbnRlcjtcclxufSJdfQ== */"
 
 /***/ }),
 
@@ -145,7 +148,7 @@ module.exports = "h1 {\r\n    color: #369;\r\n    font-family: Arial, Helvetica,
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div style=\"text-align:center\">\n  <h1>\n    {{ title }}\n  </h1>\n</div>\n<div class=\"spacing\"></div>\n<h2>This website is currently under construction.</h2>\n<h2>Please contact us</h2>\n<div class=\"contact\">\n</div>\n<br />\n<div class=\"logo-img\">\n<img onmousedown=\"return false;\" src=\"assets/img/Manacla.png\" width=\"400\">\n</div>\n\n"
+module.exports = "<div style=\"text-align:center\">\n  <h1>\n    {{ title }}'s website is currently under construction.\n  </h1>\n</div>\n<div class=\"spacing\"></div>\n<br />\n<div class=\"logo-img\">\n<img onmousedown=\"return false;\" src=\"assets/img/Manacla.png\" width=\"400\">\n</div>\n\n"
 
 /***/ }),
 
