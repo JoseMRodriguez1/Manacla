@@ -1,53 +1,52 @@
 <!-- header -->
-<nav class="navbar is-light" role="navigation" aria-label="main navigation">
-
-  <!-- logo -->
-  <div class="navbar-brand">
-    <a class="navbar-item" href="/">
-      <img onmousedown="return false;" src="assets/img/Manacla.png">
-      {{ companyName }}
-    </a>
-
-    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarMain">
-      <span aria-hidden="true"></span>
-      <span aria-hidden="true"></span>
-      <span aria-hidden="true"></span>
-    </a>
-  </div>
-
-  <!-- main menu -->
-  <div id="navbarMain" class="navbar-menu">
-    <div class="navbar-start">
-      <a class="navbar-item">
-        Home
-      </a>
-
-      <div class="navbar-item has-dropdown is-hoverable">
-        <a class="navbar-link">
-          More
+<div class="hero-head">
+  <nav class="navbar">
+    <div class="container">
+      <!-- logo -->
+      <div class="navbar-brand">
+        <a class="navbar-item" href="/">
+          <img onmousedown="return false;" src="assets/img/Manacla-no-bg.png" alt="Logo">
+          {{ companyName }}
         </a>
 
-        <div class="navbar-dropdown">
-          <a class="navbar-item">
-            About Us
-          </a>
+        <a class="navbar-burger burger" data-target="navbarMain">
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+      </div>
 
-          <a class="navbar-item">
-            Contact Us
-          </a>
+      <!-- right menu -->
+      <div id="navbarMain" class="navbar-menu">
+        <div class="navbar-end">
+          <span class="navbar-item">
+            <a class="button is-white is-outlined" href="#">
+              <span class="icon">
+                <i class="fa fa-home"></i>
+              </span>
+              <span>Home</span>
+            </a>
+          </span>
+
+          <span class="navbar-item">
+            <a class="button is-white is-outlined" href="#">
+              <span class="icon">
+                <i class="fa fa-info-circle"></i>
+              </span>
+              <span>About Us</span>
+            </a>
+          </span>
+
+          <span class="navbar-item">
+            <a class="button is-white is-outlined" href="https://goo.gl/forms/tFJOLC7NTxEZYNjp1" target="_blank">
+              <span class="icon">
+                <i class="fa fa-envelope"></i>
+              </span>
+              <span>Contact Us</span>
+            </a>
+          </span>
         </div>
       </div>
     </div>
-  </div>
-
-  <!-- right menu -->
-  <div class="navbar-end">
-    <div class="navbar-item">
-      <div class="buttons">
-        <a class="button is-light" href="https://goo.gl/forms/tFJOLC7NTxEZYNjp1" target="_blank">
-          Contact Us
-        </a>
-      </div>
-    </div>
-  </div>
-</nav>
+  </nav>
+</div>
