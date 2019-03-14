@@ -91,10 +91,20 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
 /* harmony import */ var _angular_platform_browser__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/platform-browser */ "./node_modules/@angular/platform-browser/fesm5/platform-browser.js");
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
-/* harmony import */ var _app_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./app.component */ "./src/app/app.component.ts");
-/* harmony import */ var _header_header_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./header/header.component */ "./src/app/header/header.component.ts");
-/* harmony import */ var _footer_footer_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./footer/footer.component */ "./src/app/footer/footer.component.ts");
-/* harmony import */ var _body_body_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./body/body.component */ "./src/app/body/body.component.ts");
+/* harmony import */ var _angular_fire__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/fire */ "./node_modules/@angular/fire/index.js");
+/* harmony import */ var _angular_fire_firestore__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/fire/firestore */ "./node_modules/@angular/fire/firestore/index.js");
+/* harmony import */ var _environments_environment__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../environments/environment */ "./src/environments/environment.ts");
+/* harmony import */ var _app_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./app.component */ "./src/app/app.component.ts");
+/* harmony import */ var _header_header_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./header/header.component */ "./src/app/header/header.component.ts");
+/* harmony import */ var _footer_footer_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./footer/footer.component */ "./src/app/footer/footer.component.ts");
+/* harmony import */ var _body_body_component__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./body/body.component */ "./src/app/body/body.component.ts");
+/* harmony import */ var _card_card_component__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./card/card.component */ "./src/app/card/card.component.ts");
+/* harmony import */ var _card_list_card_list_component__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./card-list/card-list.component */ "./src/app/card-list/card-list.component.ts");
+
+
+
+
+
 
 
 
@@ -108,16 +118,20 @@ var AppModule = /** @class */ (function () {
     AppModule = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_2__["NgModule"])({
             declarations: [
-                _app_component__WEBPACK_IMPORTED_MODULE_3__["AppComponent"],
-                _header_header_component__WEBPACK_IMPORTED_MODULE_4__["HeaderComponent"],
-                _footer_footer_component__WEBPACK_IMPORTED_MODULE_5__["FooterComponent"],
-                _body_body_component__WEBPACK_IMPORTED_MODULE_6__["BodyComponent"]
+                _app_component__WEBPACK_IMPORTED_MODULE_6__["AppComponent"],
+                _header_header_component__WEBPACK_IMPORTED_MODULE_7__["HeaderComponent"],
+                _footer_footer_component__WEBPACK_IMPORTED_MODULE_8__["FooterComponent"],
+                _body_body_component__WEBPACK_IMPORTED_MODULE_9__["BodyComponent"],
+                _card_card_component__WEBPACK_IMPORTED_MODULE_10__["CardComponent"],
+                _card_list_card_list_component__WEBPACK_IMPORTED_MODULE_11__["CardListComponent"]
             ],
             imports: [
-                _angular_platform_browser__WEBPACK_IMPORTED_MODULE_1__["BrowserModule"]
+                _angular_platform_browser__WEBPACK_IMPORTED_MODULE_1__["BrowserModule"],
+                _angular_fire__WEBPACK_IMPORTED_MODULE_3__["AngularFireModule"].initializeApp(_environments_environment__WEBPACK_IMPORTED_MODULE_5__["environment"].firebase),
+                _angular_fire_firestore__WEBPACK_IMPORTED_MODULE_4__["AngularFirestoreModule"],
             ],
             providers: [],
-            bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_3__["AppComponent"]]
+            bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_6__["AppComponent"]]
         })
     ], AppModule);
     return AppModule;
@@ -145,7 +159,7 @@ module.exports = "h1 {\r\n    color: #000;\r\n    font-family: Arial, Helvetica,
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"hero-body\">\n\n  <div class=\"container\">\n    <div class=\"columns features\">\n      <div class=\"container\">\n        <div class=\"notification\">\n          <div style=\"text-align:center\">\n            <h1>\n              {{ title }}'s website is currently under construction.\n            </h1>\n          </div>\n          <div class=\"spacing\"></div>\n          <br />\n          <div class=\"logo-img\">\n            <img onmousedown=\"return false;\" src=\"assets/img/Manacla-no-bg.png\" width=\"130\">\n          </div>\n        </div>\n      </div>\n    </div>\n\n    <div class=\"columns features\">\n      <div class=\"column is-4\">\n        <div class=\"card is-shady\">\n          <div class=\"card-image\">\n            <figure class=\"image is-4by3\">\n              <img src=\"assets/images/coffee_tree.jpg\" alt=\"Placeholder image\" class=\"modal-button\"\n                data-target=\"modal-image2\">\n            </figure>\n          </div>\n          <div class=\"card-content\">\n            <div class=\"content\">\n              <h4>Coffee</h4>\n              <p>Coffee trees produce berries, called coffee cherries, that turn bright red when they are ripe and ready\n                to pick. Manacla is know for growing coffee.</p>\n            </div>\n          </div>\n        </div>\n      </div>\n      <div class=\"column is-4\">\n        <div class=\"card is-shady\">\n          <div class=\"card-image\">\n            <figure class=\"image is-4by3\">\n              <img src=\"assets/images/OldHouse.jpg\" alt=\"Placeholder image\" class=\"modal-button\"\n                data-target=\"modal-image2\">\n            </figure>\n          </div>\n          <div class=\"card-content\">\n            <div class=\"content\">\n              <h4>Old House in Manacla</h4>\n              <p>This old house displays some of the typical colors of houses in Manacla.</p>\n            </div>\n          </div>\n        </div>\n      </div>\n      <div class=\"column is-4\">\n        <div class=\"card is-shady\">\n          <div class=\"card-image\">\n            <figure class=\"image is-4by3\">\n              <img src=\"assets/images/nature.jpg\" alt=\"Placeholder image\" class=\"modal-button\"\n                data-target=\"modal-image2\">\n            </figure>\n          </div>\n          <div class=\"card-content\">\n            <div class=\"content\">\n              <h4>Nature</h4>\n              <p>Nature at it's fullest</p>\n            </div>\n          </div>\n        </div>\n      </div>\n    </div>\n\n    <div class=\"columns features\">\n      <div class=\"column is-4\">\n        <div class=\"card is-shady\">\n          <div class=\"card-image\">\n            <figure class=\"image is-4by3\">\n              <img src=\"assets/images/t.jpg\" alt=\"Placeholder image\" class=\"modal-button\"\n                data-target=\"modal-image2\">\n            </figure>\n          </div>\n          <div class=\"card-content\">\n            <div class=\"content\">\n              <h4></h4>\n              <p></p>\n            </div>\n          </div>\n        </div>\n      </div>\n      <div class=\"column is-4\">\n        <div class=\"card is-shady\">\n          <div class=\"card-image\">\n            <figure class=\"image is-4by3\">\n              <img src=\"assets/images/flower.jpg\" alt=\"Placeholder image\" class=\"modal-button\"\n                data-target=\"modal-image2\">\n            </figure>\n          </div>\n          <div class=\"card-content\">\n            <div class=\"content\">\n              <h4>Flower</h4>\n              <p></p>\n            </div>\n          </div>\n        </div>\n      </div>\n      <div class=\"column is-4\">\n        <div class=\"card is-shady\">\n          <div class=\"card-image\">\n            <figure class=\"image is-4by3\">\n              <img src=\"assets/images/rio.jpg\" alt=\"Placeholder image\" class=\"modal-button\"\n                data-target=\"modal-image2\">\n            </figure>\n          </div>\n          <div class=\"card-content\">\n            <div class=\"content\">\n              <h4>River</h4>\n              <p></p>\n            </div>\n          </div>\n        </div>\n      </div>\n    </div>\n  </div>\n</div>"
+module.exports = "<div class=\"hero-body\">\n\n  <div class=\"container\">\n    <div class=\"columns features\">\n      <div class=\"container\">\n        <div class=\"notification\">\n          <div style=\"text-align:center\">\n            <h1>\n              {{ title }}'s website is currently under construction.\n            </h1>\n          </div>\n          <div class=\"spacing\"></div>\n          <br />\n          <div class=\"logo-img\">\n            <img onmousedown=\"return false;\" src=\"assets/img/Manacla-no-bg.png\" width=\"130\">\n          </div>\n        </div>\n      </div>\n    </div>\n\n    <div class=\"columns features\">\n      <div class=\"column is-4\">\n        <app-card image=\"assets/images/coffee_tree.jpg\" title=\"Coffee\" description=\"Coffee trees produce berries, called coffee cherries, that turn bright red when they are ripe and ready\n          to pick. Manacla is know for growing coffee.\"></app-card>\n      </div>\n      <div class=\"column is-4\">\n        <app-card image=\"assets/images/OldHouse.jpg\" title=\"Old House in Manacla\"\n          description=\"This old house displays some of the typical colors of houses in Manacla.\"></app-card>\n      </div>\n      <div class=\"column is-4\">\n        <app-card image=\"assets/images/nature.jpg\" title=\"Nature\" description=\"Nature at it's fullest\"></app-card>\n      </div>\n    </div>\n\n    <div class=\"columns features\">\n      <div class=\"column is-4\">\n        <app-card image=\"assets/images/t.jpg\" title=\"\" description=\"\"></app-card>\n      </div>\n      <div class=\"column is-4\">\n        <app-card image=\"assets/images/flower.jpg\" title=\"Flower\" description=\"\"></app-card>\n      </div>\n      <div class=\"column is-4\">\n        <app-card image=\"assets/images/rio.jpg\" title=\"River\" description=\"\"></app-card>\n      </div>\n    </div>\n  </div>\n</div>"
 
 /***/ }),
 
@@ -185,6 +199,194 @@ var BodyComponent = /** @class */ (function () {
         tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [])
     ], BodyComponent);
     return BodyComponent;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/card-list/card-list.component.css":
+/*!***************************************************!*\
+  !*** ./src/app/card-list/card-list.component.css ***!
+  \***************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2NhcmQtbGlzdC9jYXJkLWxpc3QuY29tcG9uZW50LmNzcyJ9 */"
+
+/***/ }),
+
+/***/ "./src/app/card-list/card-list.component.html":
+/*!****************************************************!*\
+  !*** ./src/app/card-list/card-list.component.html ***!
+  \****************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "<table>\n  <thead>\n    <th>Image</th>\n    <th>Title</th>\n    <th>Description</th>\n    <th>Upload Date</th>\n  </thead>\n  <tbody>\n    <tr *ngFor=\"let card of cards\">\n\n      <td>{{card.image}}</td>\n      <td>{{card.title}}</td>\n      <td>{{card.description}}</td>\n      <td>{{card.uploadDate}}</td>\n      <td>\n        <button (click)=\"delete(card.id)\">Delete</button>\n      </td>\n    </tr>\n  </tbody>\n</table>"
+
+/***/ }),
+
+/***/ "./src/app/card-list/card-list.component.ts":
+/*!**************************************************!*\
+  !*** ./src/app/card-list/card-list.component.ts ***!
+  \**************************************************/
+/*! exports provided: CardListComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "CardListComponent", function() { return CardListComponent; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var src_app_card_service__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! src/app/card.service */ "./src/app/card.service.ts");
+
+
+
+var CardListComponent = /** @class */ (function () {
+    function CardListComponent(cardService) {
+        this.cardService = cardService;
+    }
+    CardListComponent.prototype.ngOnInit = function () {
+        var _this = this;
+        this.cardService.getCards().subscribe(function (data) {
+            _this.cards = data.map(function (e) {
+                return tslib__WEBPACK_IMPORTED_MODULE_0__["__assign"]({ id: e.payload.doc.id }, e.payload.doc.data());
+            });
+        });
+    };
+    CardListComponent.prototype.create = function (card) {
+        this.cardService.createCard(card);
+    };
+    CardListComponent.prototype.update = function (card) {
+        this.cardService.updateCard(card);
+    };
+    CardListComponent.prototype.delete = function (id) {
+        this.cardService.deleteCard(id);
+    };
+    CardListComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+            selector: 'app-card-list',
+            template: __webpack_require__(/*! ./card-list.component.html */ "./src/app/card-list/card-list.component.html"),
+            styles: [__webpack_require__(/*! ./card-list.component.css */ "./src/app/card-list/card-list.component.css")]
+        }),
+        tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [src_app_card_service__WEBPACK_IMPORTED_MODULE_2__["CardService"]])
+    ], CardListComponent);
+    return CardListComponent;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/card.service.ts":
+/*!*********************************!*\
+  !*** ./src/app/card.service.ts ***!
+  \*********************************/
+/*! exports provided: CardService */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "CardService", function() { return CardService; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var _angular_fire_firestore__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/fire/firestore */ "./node_modules/@angular/fire/firestore/index.js");
+
+
+
+var CardService = /** @class */ (function () {
+    function CardService(firestore) {
+        this.firestore = firestore;
+    }
+    CardService.prototype.getCards = function () {
+        return this.firestore.collection('cards').snapshotChanges();
+    };
+    CardService.prototype.createCard = function (card) {
+        return this.firestore.collection('cards').add(card);
+    };
+    CardService.prototype.updateCard = function (card) {
+        delete card.id;
+        this.firestore.doc('cards/' + card.id).update(card);
+    };
+    CardService.prototype.deleteCard = function (cardId) {
+        this.firestore.doc('cards/' + cardId).delete();
+    };
+    CardService = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Injectable"])({
+            providedIn: 'root'
+        }),
+        tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [_angular_fire_firestore__WEBPACK_IMPORTED_MODULE_2__["AngularFirestore"]])
+    ], CardService);
+    return CardService;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/card/card.component.css":
+/*!*****************************************!*\
+  !*** ./src/app/card/card.component.css ***!
+  \*****************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = ".card-image {\r\n    border: 1px;\r\n    border-style: solid;\r\n    border-color: #fff;\r\n  }\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY2FyZC9jYXJkLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7SUFDSSxXQUFXO0lBQ1gsbUJBQW1CO0lBQ25CLGtCQUFrQjtFQUNwQiIsImZpbGUiOiJzcmMvYXBwL2NhcmQvY2FyZC5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLmNhcmQtaW1hZ2Uge1xyXG4gICAgYm9yZGVyOiAxcHg7XHJcbiAgICBib3JkZXItc3R5bGU6IHNvbGlkO1xyXG4gICAgYm9yZGVyLWNvbG9yOiAjZmZmO1xyXG4gIH0iXX0= */"
+
+/***/ }),
+
+/***/ "./src/app/card/card.component.html":
+/*!******************************************!*\
+  !*** ./src/app/card/card.component.html ***!
+  \******************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "<div class=\"card is-shady\">\n  <div class=\"card-image\">\n    <figure class=\"image is-4by3\">\n      <img src=\"{{ image }}\" alt=\"Placeholder image\" class=\"modal-button\"\n        data-target=\"modal-image2\">\n    </figure>\n  </div>\n  <div class=\"card-content\">\n    <div class=\"content\">\n      <h4>{{ title }}</h4>\n      <p>{{ description }}</p>\n    </div>\n  </div>\n</div>"
+
+/***/ }),
+
+/***/ "./src/app/card/card.component.ts":
+/*!****************************************!*\
+  !*** ./src/app/card/card.component.ts ***!
+  \****************************************/
+/*! exports provided: CardComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "CardComponent", function() { return CardComponent; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+
+
+var CardComponent = /** @class */ (function () {
+    function CardComponent() {
+    }
+    CardComponent.prototype.ngOnInit = function () {
+    };
+    tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"])(),
+        tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:type", String)
+    ], CardComponent.prototype, "image", void 0);
+    tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"])(),
+        tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:type", String)
+    ], CardComponent.prototype, "title", void 0);
+    tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"])(),
+        tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:type", String)
+    ], CardComponent.prototype, "description", void 0);
+    CardComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+            selector: 'app-card',
+            template: __webpack_require__(/*! ./card.component.html */ "./src/app/card/card.component.html"),
+            styles: [__webpack_require__(/*! ./card.component.css */ "./src/app/card/card.component.css")]
+        }),
+        tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [])
+    ], CardComponent);
+    return CardComponent;
 }());
 
 
@@ -321,7 +523,15 @@ __webpack_require__.r(__webpack_exports__);
 // `ng build --prod` replaces `environment.ts` with `environment.prod.ts`.
 // The list of file replacements can be found in `angular.json`.
 var environment = {
-    production: false
+    production: false,
+    firebase: {
+        apiKey: "AIzaSyDUhR7_ba-oJ1SpJ5cj0A0d1Q3WZ4Hy-BU",
+        authDomain: "manacla-dc3ba.firebaseapp.com",
+        databaseURL: "https://manacla-dc3ba.firebaseio.com",
+        projectId: "manacla-dc3ba",
+        storageBucket: "manacla-dc3ba.appspot.com",
+        messagingSenderId: "88289724164"
+    }
 };
 /*
  * For easier debugging in development mode, you can import the following file

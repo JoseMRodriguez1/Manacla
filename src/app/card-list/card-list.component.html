@@ -1,0 +1,20 @@
+<table>
+  <thead>
+    <th>Image</th>
+    <th>Title</th>
+    <th>Description</th>
+    <th>Upload Date</th>
+  </thead>
+  <tbody>
+    <tr *ngFor="let card of cards">
+
+      <td>{{card.image}}</td>
+      <td>{{card.title}}</td>
+      <td>{{card.description}}</td>
+      <td>{{card.uploadDate}}</td>
+      <td>
+        <button (click)="delete(card.id)">Delete</button>
+      </td>
+    </tr>
+  </tbody>
+</table>
