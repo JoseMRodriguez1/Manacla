@@ -23,6 +23,107 @@ webpackEmptyAsyncContext.id = "./src/$$_lazy_route_resource lazy recursive";
 
 /***/ }),
 
+/***/ "./src/app/about/about.component.css":
+/*!*******************************************!*\
+  !*** ./src/app/about/about.component.css ***!
+  \*******************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = ".center {\r\n    text-align: center;\r\n}\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvYWJvdXQvYWJvdXQuY29tcG9uZW50LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtJQUNJLGtCQUFrQjtBQUN0QiIsImZpbGUiOiJzcmMvYXBwL2Fib3V0L2Fib3V0LmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyIuY2VudGVyIHtcclxuICAgIHRleHQtYWxpZ246IGNlbnRlcjtcclxufSJdfQ== */"
+
+/***/ }),
+
+/***/ "./src/app/about/about.component.html":
+/*!********************************************!*\
+  !*** ./src/app/about/about.component.html ***!
+  \********************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "<p class=\"center\">\n  Manacla is a beautiful small town in San Jose de las Matas, Dominican Republic.\n  <br />\n  More information will be added soon.\n</p>\n"
+
+/***/ }),
+
+/***/ "./src/app/about/about.component.ts":
+/*!******************************************!*\
+  !*** ./src/app/about/about.component.ts ***!
+  \******************************************/
+/*! exports provided: AboutComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AboutComponent", function() { return AboutComponent; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+
+
+var AboutComponent = /** @class */ (function () {
+    function AboutComponent() {
+    }
+    AboutComponent.prototype.ngOnInit = function () {
+    };
+    AboutComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+            selector: 'app-about',
+            template: __webpack_require__(/*! ./about.component.html */ "./src/app/about/about.component.html"),
+            styles: [__webpack_require__(/*! ./about.component.css */ "./src/app/about/about.component.css")]
+        }),
+        tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [])
+    ], AboutComponent);
+    return AboutComponent;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/app-routing.module.ts":
+/*!***************************************!*\
+  !*** ./src/app/app-routing.module.ts ***!
+  \***************************************/
+/*! exports provided: AppRoutingModule, routingComponents */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AppRoutingModule", function() { return AppRoutingModule; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "routingComponents", function() { return routingComponents; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm5/router.js");
+/* harmony import */ var _body_body_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./body/body.component */ "./src/app/body/body.component.ts");
+/* harmony import */ var _about_about_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./about/about.component */ "./src/app/about/about.component.ts");
+/* harmony import */ var _card_list_card_list_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./card-list/card-list.component */ "./src/app/card-list/card-list.component.ts");
+
+
+
+
+
+
+var routes = [
+    { path: '', component: _body_body_component__WEBPACK_IMPORTED_MODULE_3__["BodyComponent"] },
+    { path: 'about', component: _about_about_component__WEBPACK_IMPORTED_MODULE_4__["AboutComponent"] },
+    { path: 'contact', component: _card_list_card_list_component__WEBPACK_IMPORTED_MODULE_5__["CardListComponent"] }
+];
+var AppRoutingModule = /** @class */ (function () {
+    function AppRoutingModule() {
+    }
+    AppRoutingModule = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["NgModule"])({
+            imports: [_angular_router__WEBPACK_IMPORTED_MODULE_2__["RouterModule"].forRoot(routes)],
+            exports: [_angular_router__WEBPACK_IMPORTED_MODULE_2__["RouterModule"]]
+        })
+    ], AppRoutingModule);
+    return AppRoutingModule;
+}());
+
+var routingComponents = [_body_body_component__WEBPACK_IMPORTED_MODULE_3__["BodyComponent"], _card_list_card_list_component__WEBPACK_IMPORTED_MODULE_5__["CardListComponent"]];
+
+
+/***/ }),
+
 /***/ "./src/app/app.component.css":
 /*!***********************************!*\
   !*** ./src/app/app.component.css ***!
@@ -41,7 +142,7 @@ module.exports = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<section class=\"hero is-info is-fullheight\">\r\n  <app-header [companyName]=\"companyName\"></app-header>\r\n  \r\n  <app-body\r\n  [companyName]=\"companyName\"\r\n  [title]=\"title\"></app-body>\r\n\r\n  <app-footer></app-footer>\r\n</section>"
+module.exports = "<section class=\"hero is-dark is-fullheight\">\r\n  <app-header [companyName]=\"companyName\"></app-header>\r\n\r\n  <div class=\"hero-body\">\r\n    <div class=\"container\">\r\n      <router-outlet></router-outlet>\r\n    </div>\r\n  </div>\r\n\r\n  <app-footer></app-footer>\r\n</section>"
 
 /***/ }),
 
@@ -97,9 +198,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _app_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./app.component */ "./src/app/app.component.ts");
 /* harmony import */ var _header_header_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./header/header.component */ "./src/app/header/header.component.ts");
 /* harmony import */ var _footer_footer_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./footer/footer.component */ "./src/app/footer/footer.component.ts");
-/* harmony import */ var _body_body_component__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./body/body.component */ "./src/app/body/body.component.ts");
-/* harmony import */ var _card_card_component__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./card/card.component */ "./src/app/card/card.component.ts");
-/* harmony import */ var _card_list_card_list_component__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./card-list/card-list.component */ "./src/app/card-list/card-list.component.ts");
+/* harmony import */ var _card_card_component__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./card/card.component */ "./src/app/card/card.component.ts");
+/* harmony import */ var _app_routing_module__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./app-routing.module */ "./src/app/app-routing.module.ts");
+/* harmony import */ var _about_about_component__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./about/about.component */ "./src/app/about/about.component.ts");
 
 
 
@@ -121,12 +222,13 @@ var AppModule = /** @class */ (function () {
                 _app_component__WEBPACK_IMPORTED_MODULE_6__["AppComponent"],
                 _header_header_component__WEBPACK_IMPORTED_MODULE_7__["HeaderComponent"],
                 _footer_footer_component__WEBPACK_IMPORTED_MODULE_8__["FooterComponent"],
-                _body_body_component__WEBPACK_IMPORTED_MODULE_9__["BodyComponent"],
-                _card_card_component__WEBPACK_IMPORTED_MODULE_10__["CardComponent"],
-                _card_list_card_list_component__WEBPACK_IMPORTED_MODULE_11__["CardListComponent"]
+                _card_card_component__WEBPACK_IMPORTED_MODULE_9__["CardComponent"],
+                _app_routing_module__WEBPACK_IMPORTED_MODULE_10__["routingComponents"],
+                _about_about_component__WEBPACK_IMPORTED_MODULE_11__["AboutComponent"]
             ],
             imports: [
                 _angular_platform_browser__WEBPACK_IMPORTED_MODULE_1__["BrowserModule"],
+                _app_routing_module__WEBPACK_IMPORTED_MODULE_10__["AppRoutingModule"],
                 _angular_fire__WEBPACK_IMPORTED_MODULE_3__["AngularFireModule"].initializeApp(_environments_environment__WEBPACK_IMPORTED_MODULE_5__["environment"].firebase),
                 _angular_fire_firestore__WEBPACK_IMPORTED_MODULE_4__["AngularFirestoreModule"],
             ],
@@ -148,7 +250,7 @@ var AppModule = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "h1 {\r\n    color: #000;\r\n    font-family: Arial, Helvetica, sans-serif;\r\n    font-size: 250%;\r\n  }\r\n\r\nh2 {\r\n    text-align: center;\r\n}\r\n\r\n.contact {\r\n\theight: 100%;\r\n}\r\n\r\n.logo-img {\r\n\ttext-align: center;\r\n}\r\n\r\n.card-image {\r\n  border: 1px;\r\n  border-style: solid;\r\n  border-color: #fff;\r\n}\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvYm9keS9ib2R5LmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7SUFDSSxXQUFXO0lBQ1gseUNBQXlDO0lBQ3pDLGVBQWU7RUFDakI7O0FBRUY7SUFDSSxrQkFBa0I7QUFDdEI7O0FBRUE7Q0FDQyxZQUFZO0FBQ2I7O0FBRUE7Q0FDQyxrQkFBa0I7QUFDbkI7O0FBRUE7RUFDRSxXQUFXO0VBQ1gsbUJBQW1CO0VBQ25CLGtCQUFrQjtBQUNwQiIsImZpbGUiOiJzcmMvYXBwL2JvZHkvYm9keS5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiaDEge1xyXG4gICAgY29sb3I6ICMwMDA7XHJcbiAgICBmb250LWZhbWlseTogQXJpYWwsIEhlbHZldGljYSwgc2Fucy1zZXJpZjtcclxuICAgIGZvbnQtc2l6ZTogMjUwJTtcclxuICB9XHJcblxyXG5oMiB7XHJcbiAgICB0ZXh0LWFsaWduOiBjZW50ZXI7XHJcbn1cclxuXHJcbi5jb250YWN0IHtcclxuXHRoZWlnaHQ6IDEwMCU7XHJcbn1cclxuXHJcbi5sb2dvLWltZyB7XHJcblx0dGV4dC1hbGlnbjogY2VudGVyO1xyXG59XHJcblxyXG4uY2FyZC1pbWFnZSB7XHJcbiAgYm9yZGVyOiAxcHg7XHJcbiAgYm9yZGVyLXN0eWxlOiBzb2xpZDtcclxuICBib3JkZXItY29sb3I6ICNmZmY7XHJcbn0iXX0= */"
+module.exports = "h1 {\r\n    color: #000;\r\n    font-family: Arial, Helvetica, sans-serif;\r\n    font-size: 250%;\r\n  }\r\n\r\nh2 {\r\n    text-align: center;\r\n}\r\n\r\n.notification {\r\n  background-color: rgba(255, 255, 255, 0.7);\r\n}\r\n\r\n.contact {\r\n\theight: 100%;\r\n}\r\n\r\n.logo-img {\r\n\ttext-align: center;\r\n}\r\n\r\n.card-image {\r\n  border: 1px;\r\n  border-style: solid;\r\n  border-color: #fff;\r\n}\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvYm9keS9ib2R5LmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7SUFDSSxXQUFXO0lBQ1gseUNBQXlDO0lBQ3pDLGVBQWU7RUFDakI7O0FBRUY7SUFDSSxrQkFBa0I7QUFDdEI7O0FBRUE7RUFDRSwwQ0FBMEM7QUFDNUM7O0FBRUE7Q0FDQyxZQUFZO0FBQ2I7O0FBRUE7Q0FDQyxrQkFBa0I7QUFDbkI7O0FBRUE7RUFDRSxXQUFXO0VBQ1gsbUJBQW1CO0VBQ25CLGtCQUFrQjtBQUNwQiIsImZpbGUiOiJzcmMvYXBwL2JvZHkvYm9keS5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiaDEge1xyXG4gICAgY29sb3I6ICMwMDA7XHJcbiAgICBmb250LWZhbWlseTogQXJpYWwsIEhlbHZldGljYSwgc2Fucy1zZXJpZjtcclxuICAgIGZvbnQtc2l6ZTogMjUwJTtcclxuICB9XHJcblxyXG5oMiB7XHJcbiAgICB0ZXh0LWFsaWduOiBjZW50ZXI7XHJcbn1cclxuXHJcbi5ub3RpZmljYXRpb24ge1xyXG4gIGJhY2tncm91bmQtY29sb3I6IHJnYmEoMjU1LCAyNTUsIDI1NSwgMC43KTtcclxufVxyXG5cclxuLmNvbnRhY3Qge1xyXG5cdGhlaWdodDogMTAwJTtcclxufVxyXG5cclxuLmxvZ28taW1nIHtcclxuXHR0ZXh0LWFsaWduOiBjZW50ZXI7XHJcbn1cclxuXHJcbi5jYXJkLWltYWdlIHtcclxuICBib3JkZXI6IDFweDtcclxuICBib3JkZXItc3R5bGU6IHNvbGlkO1xyXG4gIGJvcmRlci1jb2xvcjogI2ZmZjtcclxufSJdfQ== */"
 
 /***/ }),
 
@@ -159,7 +261,7 @@ module.exports = "h1 {\r\n    color: #000;\r\n    font-family: Arial, Helvetica,
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"hero-body\">\n\n  <div class=\"container\">\n    <div class=\"columns features\">\n      <div class=\"container\">\n        <div class=\"notification\">\n          <div style=\"text-align:center\">\n            <h1>\n              {{ title }}'s website is currently under construction.\n            </h1>\n          </div>\n          <div class=\"spacing\"></div>\n          <br />\n          <div class=\"logo-img\">\n            <img onmousedown=\"return false;\" src=\"assets/img/Manacla-no-bg.png\" width=\"130\">\n          </div>\n        </div>\n      </div>\n    </div>\n\n    <div class=\"columns features\">\n      <div class=\"column is-4\">\n        <app-card image=\"assets/images/coffee_tree.jpg\" title=\"Coffee\" description=\"Coffee trees produce berries, called coffee cherries, that turn bright red when they are ripe and ready\n          to pick. Manacla is know for growing coffee.\"></app-card>\n      </div>\n      <div class=\"column is-4\">\n        <app-card image=\"assets/images/OldHouse.jpg\" title=\"Old House in Manacla\"\n          description=\"This old house displays some of the typical colors of houses in Manacla.\"></app-card>\n      </div>\n      <div class=\"column is-4\">\n        <app-card image=\"assets/images/nature.jpg\" title=\"Nature\" description=\"Nature at it's fullest\"></app-card>\n      </div>\n    </div>\n\n    <div class=\"columns features\">\n      <div class=\"column is-4\">\n        <app-card image=\"assets/images/t.jpg\" title=\"\" description=\"\"></app-card>\n      </div>\n      <div class=\"column is-4\">\n        <app-card image=\"assets/images/flower.jpg\" title=\"Flower\" description=\"\"></app-card>\n      </div>\n      <div class=\"column is-4\">\n        <app-card image=\"assets/images/rio.jpg\" title=\"River\" description=\"\"></app-card>\n      </div>\n    </div>\n  </div>\n</div>"
+module.exports = "<div class=\"columns features\">\n  <div class=\"container\">\n    <div class=\"notification\">\n      <div style=\"text-align:center\">\n        <h1>\n          Manacla's website is currently under construction.\n        </h1>\n      </div>\n      <div class=\"spacing\"></div>\n      <br />\n      <div class=\"logo-img\">\n        <img onmousedown=\"return false;\" src=\"assets/img/Manacla-no-bg.png\" width=\"130\">\n      </div>\n    </div>\n  </div>\n</div>\n\n<div class=\"columns features\">\n  <div class=\"column is-4\">\n    <app-card image=\"assets/images/coffee_tree.jpg\" title=\"Coffee\" description=\"Coffee trees produce berries, called coffee cherries, that turn bright red when they are ripe and ready\n          to pick. Manacla is know for growing coffee.\"></app-card>\n  </div>\n  <div class=\"column is-4\">\n    <app-card image=\"assets/images/OldHouse.jpg\" title=\"Old House in Manacla\"\n      description=\"This old house displays some of the typical colors of houses in Manacla.\"></app-card>\n  </div>\n  <div class=\"column is-4\">\n    <app-card image=\"assets/images/nature.jpg\" title=\"Nature\" description=\"Nature at it's fullest\"></app-card>\n  </div>\n</div>\n\n<div class=\"columns features\">\n  <div class=\"column is-4\">\n    <app-card image=\"assets/images/t.jpg\" title=\"\" description=\"\"></app-card>\n  </div>\n  <div class=\"column is-4\">\n    <app-card image=\"assets/images/flower.jpg\" title=\"Flower\" description=\"\"></app-card>\n  </div>\n  <div class=\"column is-4\">\n    <app-card image=\"assets/images/rio.jpg\" title=\"River\" description=\"\"></app-card>\n  </div>\n</div>"
 
 /***/ }),
 
@@ -332,7 +434,7 @@ var CardService = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = ".card-image {\r\n    border: 1px;\r\n    border-style: solid;\r\n    border-color: #fff;\r\n  }\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY2FyZC9jYXJkLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7SUFDSSxXQUFXO0lBQ1gsbUJBQW1CO0lBQ25CLGtCQUFrQjtFQUNwQiIsImZpbGUiOiJzcmMvYXBwL2NhcmQvY2FyZC5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLmNhcmQtaW1hZ2Uge1xyXG4gICAgYm9yZGVyOiAxcHg7XHJcbiAgICBib3JkZXItc3R5bGU6IHNvbGlkO1xyXG4gICAgYm9yZGVyLWNvbG9yOiAjZmZmO1xyXG4gIH0iXX0= */"
+module.exports = ".card-image {\r\n    border: 0px;\r\n    border-style: solid;\r\n    border-color: #fff;\r\n  }\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY2FyZC9jYXJkLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7SUFDSSxXQUFXO0lBQ1gsbUJBQW1CO0lBQ25CLGtCQUFrQjtFQUNwQiIsImZpbGUiOiJzcmMvYXBwL2NhcmQvY2FyZC5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLmNhcmQtaW1hZ2Uge1xyXG4gICAgYm9yZGVyOiAwcHg7XHJcbiAgICBib3JkZXItc3R5bGU6IHNvbGlkO1xyXG4gICAgYm9yZGVyLWNvbG9yOiAjZmZmO1xyXG4gIH0iXX0= */"
 
 /***/ }),
 
@@ -467,7 +569,7 @@ module.exports = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<!-- header -->\n<div class=\"hero-head\">\n  <nav class=\"navbar\">\n    <div class=\"container\">\n      <!-- logo -->\n      <div class=\"navbar-brand\">\n        <a class=\"navbar-item\" href=\"/\">\n          <img onmousedown=\"return false;\" src=\"assets/img/Manacla-no-bg.png\" alt=\"Logo\">\n          {{ companyName }}\n        </a>\n\n        <a class=\"navbar-burger burger\" data-target=\"navbarMain\">\n          <span aria-hidden=\"true\"></span>\n          <span aria-hidden=\"true\"></span>\n          <span aria-hidden=\"true\"></span>\n        </a>\n      </div>\n\n      <!-- right menu -->\n      <div id=\"navbarMain\" class=\"navbar-menu\">\n        <div class=\"navbar-end\">\n          <span class=\"navbar-item\">\n            <a class=\"button is-white is-outlined\" href=\"#\">\n              <span class=\"icon\">\n                <i class=\"fa fa-home\"></i>\n              </span>\n              <span>Home</span>\n            </a>\n          </span>\n\n          <span class=\"navbar-item\">\n            <a class=\"button is-white is-outlined\" href=\"#\">\n              <span class=\"icon\">\n                <i class=\"fa fa-info-circle\"></i>\n              </span>\n              <span>About Us</span>\n            </a>\n          </span>\n\n          <span class=\"navbar-item\">\n            <a class=\"button is-white is-outlined\" href=\"https://goo.gl/forms/tFJOLC7NTxEZYNjp1\" target=\"_blank\">\n              <span class=\"icon\">\n                <i class=\"fa fa-envelope\"></i>\n              </span>\n              <span>Contact Us</span>\n            </a>\n          </span>\n        </div>\n      </div>\n    </div>\n  </nav>\n</div>"
+module.exports = "<!-- header -->\n<div class=\"hero-head\">\n  <nav class=\"navbar\">\n    <div class=\"container\">\n      <!-- logo -->\n      <div class=\"navbar-brand\">\n        <a class=\"navbar-item\" routerLink=\"\">\n          <img onmousedown=\"return false;\" src=\"assets/img/Manacla-no-bg.png\" alt=\"Logo\">\n          {{ companyName }}\n        </a>\n\n        <a class=\"navbar-burger burger\" data-target=\"navbarMain\">\n          <span aria-hidden=\"true\"></span>\n          <span aria-hidden=\"true\"></span>\n          <span aria-hidden=\"true\"></span>\n        </a>\n      </div>\n\n      <!-- right menu -->\n      <div id=\"navbarMain\" class=\"navbar-menu\">\n        <div class=\"navbar-end\">\n          <span class=\"navbar-item\">\n            <a class=\"button is-white is-outlined\" routerLink=\"\" routerLinkActive=\"active\">\n              <span class=\"icon\">\n                <i class=\"fa fa-home\"></i>\n              </span>\n              <span>Home</span>\n            </a>\n          </span>\n\n          <span class=\"navbar-item\">\n            <a class=\"button is-white is-outlined\" routerLink=\"/about\" routerLinkActive=\"active\">\n              <span class=\"icon\">\n                <i class=\"fa fa-info-circle\"></i>\n              </span>\n              <span>About Us</span>\n            </a>\n          </span>\n\n          <span class=\"navbar-item\">\n            <a class=\"button is-white is-outlined\" href=\"https://goo.gl/forms/tFJOLC7NTxEZYNjp1\" target=\"_blank\">\n              <span class=\"icon\">\n                <i class=\"fa fa-envelope\"></i>\n              </span>\n              <span>Contact Us</span>\n            </a>\n          </span>\n        </div>\n      </div>\n    </div>\n  </nav>\n</div>"
 
 /***/ }),
 

@@ -8,21 +8,23 @@ import { environment } from '../environments/environment';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
-import { BodyComponent } from './body/body.component';
 import { CardComponent } from './card/card.component';
-import { CardListComponent } from './card-list/card-list.component';
+
+import { AppRoutingModule, routingComponents } from './app-routing.module';
+import { AboutComponent } from './about/about.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     FooterComponent,
-    BodyComponent,
     CardComponent,
-    CardListComponent
+    routingComponents,
+    AboutComponent
   ],
   imports: [
     BrowserModule,
+    AppRoutingModule,
     AngularFireModule.initializeApp(environment.firebase),
     AngularFirestoreModule,
   ],
