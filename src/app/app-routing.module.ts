@@ -3,7 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 
 import { BodyComponent } from './body/body.component';
 import { AboutComponent } from './about/about.component';
-import { CardListComponent } from './card-list/card-list.component'
+import { CardListComponent } from './card-list/card-list.component';
 
 const routes: Routes = [
     { path: '', component: BodyComponent },
@@ -16,4 +16,4 @@ const routes: Routes = [
     exports: [RouterModule]
 })
 export class AppRoutingModule { }
-export const routingComponents = [BodyComponent, CardListComponent]
+export const routingComponents = [BodyComponent, CardListComponent];
