@@ -56,24 +56,22 @@ module.exports = "<p class=\"center\">\n  Manacla is a beautiful small town in S
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AboutComponent", function() { return AboutComponent; });
 /* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
 
 
-var AboutComponent = /** @class */ (function () {
-    function AboutComponent() {
+let AboutComponent = class AboutComponent {
+    constructor() { }
+    ngOnInit() {
     }
-    AboutComponent.prototype.ngOnInit = function () {
-    };
-    AboutComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
-        Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
-            selector: 'app-about',
-            template: __webpack_require__(/*! ./about.component.html */ "./src/app/about/about.component.html"),
-            styles: [__webpack_require__(/*! ./about.component.css */ "./src/app/about/about.component.css")]
-        }),
-        tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [])
-    ], AboutComponent);
-    return AboutComponent;
-}());
+};
+AboutComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+        selector: 'app-about',
+        template: __webpack_require__(/*! ./about.component.html */ "./src/app/about/about.component.html"),
+        styles: [__webpack_require__(/*! ./about.component.css */ "./src/app/about/about.component.css")]
+    }),
+    tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [])
+], AboutComponent);
 
 
 
@@ -91,8 +89,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AppRoutingModule", function() { return AppRoutingModule; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "routingComponents", function() { return routingComponents; });
 /* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
-/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm5/router.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm2015/router.js");
 /* harmony import */ var _body_body_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./body/body.component */ "./src/app/body/body.component.ts");
 /* harmony import */ var _about_about_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./about/about.component */ "./src/app/about/about.component.ts");
 /* harmony import */ var _card_list_card_list_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./card-list/card-list.component */ "./src/app/card-list/card-list.component.ts");
@@ -102,24 +100,21 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var routes = [
+const routes = [
     { path: '', component: _body_body_component__WEBPACK_IMPORTED_MODULE_3__["BodyComponent"] },
     { path: 'about', component: _about_about_component__WEBPACK_IMPORTED_MODULE_4__["AboutComponent"] },
     { path: 'contact', component: _card_list_card_list_component__WEBPACK_IMPORTED_MODULE_5__["CardListComponent"] }
 ];
-var AppRoutingModule = /** @class */ (function () {
-    function AppRoutingModule() {
-    }
-    AppRoutingModule = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
-        Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["NgModule"])({
-            imports: [_angular_router__WEBPACK_IMPORTED_MODULE_2__["RouterModule"].forRoot(routes)],
-            exports: [_angular_router__WEBPACK_IMPORTED_MODULE_2__["RouterModule"]]
-        })
-    ], AppRoutingModule);
-    return AppRoutingModule;
-}());
+let AppRoutingModule = class AppRoutingModule {
+};
+AppRoutingModule = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["NgModule"])({
+        imports: [_angular_router__WEBPACK_IMPORTED_MODULE_2__["RouterModule"].forRoot(routes)],
+        exports: [_angular_router__WEBPACK_IMPORTED_MODULE_2__["RouterModule"]]
+    })
+], AppRoutingModule);
 
-var routingComponents = [_body_body_component__WEBPACK_IMPORTED_MODULE_3__["BodyComponent"], _card_list_card_list_component__WEBPACK_IMPORTED_MODULE_5__["CardListComponent"]];
+const routingComponents = [_body_body_component__WEBPACK_IMPORTED_MODULE_3__["BodyComponent"], _card_list_card_list_component__WEBPACK_IMPORTED_MODULE_5__["CardListComponent"]];
 
 
 /***/ }),
@@ -157,23 +152,22 @@ module.exports = "<section class=\"hero is-dark is-fullheight\">\r\n  <app-heade
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AppComponent", function() { return AppComponent; });
 /* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
 
 
-var AppComponent = /** @class */ (function () {
-    function AppComponent() {
+let AppComponent = class AppComponent {
+    constructor() {
         this.companyName = 'Manacla';
         this.title = 'Manacla';
     }
-    AppComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
-        Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
-            selector: 'app-root',
-            template: __webpack_require__(/*! ./app.component.html */ "./src/app/app.component.html"),
-            styles: [__webpack_require__(/*! ./app.component.css */ "./src/app/app.component.css")]
-        })
-    ], AppComponent);
-    return AppComponent;
-}());
+};
+AppComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+        selector: 'app-root',
+        template: __webpack_require__(/*! ./app.component.html */ "./src/app/app.component.html"),
+        styles: [__webpack_require__(/*! ./app.component.css */ "./src/app/app.component.css")]
+    })
+], AppComponent);
 
 
 
@@ -190,10 +184,10 @@ var AppComponent = /** @class */ (function () {
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AppModule", function() { return AppModule; });
 /* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
-/* harmony import */ var _angular_platform_browser__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/platform-browser */ "./node_modules/@angular/platform-browser/fesm5/platform-browser.js");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
-/* harmony import */ var _angular_fire__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/fire */ "./node_modules/@angular/fire/index.js");
-/* harmony import */ var _angular_fire_firestore__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/fire/firestore */ "./node_modules/@angular/fire/firestore/index.js");
+/* harmony import */ var _angular_platform_browser__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/platform-browser */ "./node_modules/@angular/platform-browser/fesm2015/platform-browser.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var _angular_fire__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/fire */ "./node_modules/@angular/fire/es2015/index.js");
+/* harmony import */ var _angular_fire_firestore__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/fire/firestore */ "./node_modules/@angular/fire/firestore/es2015/index.js");
 /* harmony import */ var _environments_environment__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../environments/environment */ "./src/environments/environment.ts");
 /* harmony import */ var _app_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./app.component */ "./src/app/app.component.ts");
 /* harmony import */ var _header_header_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./header/header.component */ "./src/app/header/header.component.ts");
@@ -213,31 +207,28 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var AppModule = /** @class */ (function () {
-    function AppModule() {
-    }
-    AppModule = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
-        Object(_angular_core__WEBPACK_IMPORTED_MODULE_2__["NgModule"])({
-            declarations: [
-                _app_component__WEBPACK_IMPORTED_MODULE_6__["AppComponent"],
-                _header_header_component__WEBPACK_IMPORTED_MODULE_7__["HeaderComponent"],
-                _footer_footer_component__WEBPACK_IMPORTED_MODULE_8__["FooterComponent"],
-                _card_card_component__WEBPACK_IMPORTED_MODULE_9__["CardComponent"],
-                _app_routing_module__WEBPACK_IMPORTED_MODULE_10__["routingComponents"],
-                _about_about_component__WEBPACK_IMPORTED_MODULE_11__["AboutComponent"]
-            ],
-            imports: [
-                _angular_platform_browser__WEBPACK_IMPORTED_MODULE_1__["BrowserModule"],
-                _app_routing_module__WEBPACK_IMPORTED_MODULE_10__["AppRoutingModule"],
-                _angular_fire__WEBPACK_IMPORTED_MODULE_3__["AngularFireModule"].initializeApp(_environments_environment__WEBPACK_IMPORTED_MODULE_5__["environment"].firebase),
-                _angular_fire_firestore__WEBPACK_IMPORTED_MODULE_4__["AngularFirestoreModule"],
-            ],
-            providers: [],
-            bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_6__["AppComponent"]]
-        })
-    ], AppModule);
-    return AppModule;
-}());
+let AppModule = class AppModule {
+};
+AppModule = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_2__["NgModule"])({
+        declarations: [
+            _app_component__WEBPACK_IMPORTED_MODULE_6__["AppComponent"],
+            _header_header_component__WEBPACK_IMPORTED_MODULE_7__["HeaderComponent"],
+            _footer_footer_component__WEBPACK_IMPORTED_MODULE_8__["FooterComponent"],
+            _card_card_component__WEBPACK_IMPORTED_MODULE_9__["CardComponent"],
+            _app_routing_module__WEBPACK_IMPORTED_MODULE_10__["routingComponents"],
+            _about_about_component__WEBPACK_IMPORTED_MODULE_11__["AboutComponent"]
+        ],
+        imports: [
+            _angular_platform_browser__WEBPACK_IMPORTED_MODULE_1__["BrowserModule"],
+            _app_routing_module__WEBPACK_IMPORTED_MODULE_10__["AppRoutingModule"],
+            _angular_fire__WEBPACK_IMPORTED_MODULE_3__["AngularFireModule"].initializeApp(_environments_environment__WEBPACK_IMPORTED_MODULE_5__["environment"].firebase),
+            _angular_fire_firestore__WEBPACK_IMPORTED_MODULE_4__["AngularFirestoreModule"],
+        ],
+        providers: [],
+        bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_6__["AppComponent"]]
+    })
+], AppModule);
 
 
 
@@ -276,32 +267,30 @@ module.exports = "<div class=\"columns features\">\n  <div class=\"container\">\
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "BodyComponent", function() { return BodyComponent; });
 /* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
 
 
-var BodyComponent = /** @class */ (function () {
-    function BodyComponent() {
+let BodyComponent = class BodyComponent {
+    constructor() { }
+    ngOnInit() {
     }
-    BodyComponent.prototype.ngOnInit = function () {
-    };
-    tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
-        Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"])(),
-        tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:type", String)
-    ], BodyComponent.prototype, "companyName", void 0);
-    tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
-        Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"])(),
-        tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:type", String)
-    ], BodyComponent.prototype, "title", void 0);
-    BodyComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
-        Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
-            selector: 'app-body',
-            template: __webpack_require__(/*! ./body.component.html */ "./src/app/body/body.component.html"),
-            styles: [__webpack_require__(/*! ./body.component.css */ "./src/app/body/body.component.css")]
-        }),
-        tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [])
-    ], BodyComponent);
-    return BodyComponent;
-}());
+};
+tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"])(),
+    tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:type", String)
+], BodyComponent.prototype, "companyName", void 0);
+tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"])(),
+    tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:type", String)
+], BodyComponent.prototype, "title", void 0);
+BodyComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+        selector: 'app-body',
+        template: __webpack_require__(/*! ./body.component.html */ "./src/app/body/body.component.html"),
+        styles: [__webpack_require__(/*! ./body.component.css */ "./src/app/body/body.component.css")]
+    }),
+    tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [])
+], BodyComponent);
 
 
 
@@ -340,42 +329,40 @@ module.exports = "<table>\n  <thead>\n    <th>Image</th>\n    <th>Title</th>\n  
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "CardListComponent", function() { return CardListComponent; });
 /* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
 /* harmony import */ var src_app_card_service__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! src/app/card.service */ "./src/app/card.service.ts");
 
 
 
-var CardListComponent = /** @class */ (function () {
-    function CardListComponent(cardService) {
+let CardListComponent = class CardListComponent {
+    constructor(cardService) {
         this.cardService = cardService;
     }
-    CardListComponent.prototype.ngOnInit = function () {
-        var _this = this;
-        this.cardService.getCards().subscribe(function (data) {
-            _this.cards = data.map(function (e) {
-                return tslib__WEBPACK_IMPORTED_MODULE_0__["__assign"]({ id: e.payload.doc.id }, e.payload.doc.data());
+    ngOnInit() {
+        this.cardService.getCards().subscribe(data => {
+            this.cards = data.map(e => {
+                return Object.assign({ id: e.payload.doc.id }, e.payload.doc.data());
             });
         });
-    };
-    CardListComponent.prototype.create = function (card) {
+    }
+    create(card) {
         this.cardService.createCard(card);
-    };
-    CardListComponent.prototype.update = function (card) {
+    }
+    update(card) {
         this.cardService.updateCard(card);
-    };
-    CardListComponent.prototype.delete = function (id) {
+    }
+    delete(id) {
         this.cardService.deleteCard(id);
-    };
-    CardListComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
-        Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
-            selector: 'app-card-list',
-            template: __webpack_require__(/*! ./card-list.component.html */ "./src/app/card-list/card-list.component.html"),
-            styles: [__webpack_require__(/*! ./card-list.component.css */ "./src/app/card-list/card-list.component.css")]
-        }),
-        tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [src_app_card_service__WEBPACK_IMPORTED_MODULE_2__["CardService"]])
-    ], CardListComponent);
-    return CardListComponent;
-}());
+    }
+};
+CardListComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+        selector: 'app-card-list',
+        template: __webpack_require__(/*! ./card-list.component.html */ "./src/app/card-list/card-list.component.html"),
+        styles: [__webpack_require__(/*! ./card-list.component.css */ "./src/app/card-list/card-list.component.css")]
+    }),
+    tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [src_app_card_service__WEBPACK_IMPORTED_MODULE_2__["CardService"]])
+], CardListComponent);
 
 
 
@@ -392,36 +379,35 @@ var CardListComponent = /** @class */ (function () {
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "CardService", function() { return CardService; });
 /* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
-/* harmony import */ var _angular_fire_firestore__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/fire/firestore */ "./node_modules/@angular/fire/firestore/index.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var _angular_fire_firestore__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/fire/firestore */ "./node_modules/@angular/fire/firestore/es2015/index.js");
 
 
 
-var CardService = /** @class */ (function () {
-    function CardService(firestore) {
+let CardService = class CardService {
+    constructor(firestore) {
         this.firestore = firestore;
     }
-    CardService.prototype.getCards = function () {
+    getCards() {
         return this.firestore.collection('cards').snapshotChanges();
-    };
-    CardService.prototype.createCard = function (card) {
+    }
+    createCard(card) {
         return this.firestore.collection('cards').add(card);
-    };
-    CardService.prototype.updateCard = function (card) {
+    }
+    updateCard(card) {
         delete card.id;
         this.firestore.doc('cards/' + card.id).update(card);
-    };
-    CardService.prototype.deleteCard = function (cardId) {
+    }
+    deleteCard(cardId) {
         this.firestore.doc('cards/' + cardId).delete();
-    };
-    CardService = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
-        Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Injectable"])({
-            providedIn: 'root'
-        }),
-        tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [_angular_fire_firestore__WEBPACK_IMPORTED_MODULE_2__["AngularFirestore"]])
-    ], CardService);
-    return CardService;
-}());
+    }
+};
+CardService = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Injectable"])({
+        providedIn: 'root'
+    }),
+    tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [_angular_fire_firestore__WEBPACK_IMPORTED_MODULE_2__["AngularFirestore"]])
+], CardService);
 
 
 
@@ -460,36 +446,34 @@ module.exports = "<div class=\"card is-shady\">\n  <div class=\"card-image\">\n 
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "CardComponent", function() { return CardComponent; });
 /* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
 
 
-var CardComponent = /** @class */ (function () {
-    function CardComponent() {
+let CardComponent = class CardComponent {
+    constructor() { }
+    ngOnInit() {
     }
-    CardComponent.prototype.ngOnInit = function () {
-    };
-    tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
-        Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"])(),
-        tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:type", String)
-    ], CardComponent.prototype, "image", void 0);
-    tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
-        Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"])(),
-        tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:type", String)
-    ], CardComponent.prototype, "title", void 0);
-    tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
-        Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"])(),
-        tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:type", String)
-    ], CardComponent.prototype, "description", void 0);
-    CardComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
-        Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
-            selector: 'app-card',
-            template: __webpack_require__(/*! ./card.component.html */ "./src/app/card/card.component.html"),
-            styles: [__webpack_require__(/*! ./card.component.css */ "./src/app/card/card.component.css")]
-        }),
-        tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [])
-    ], CardComponent);
-    return CardComponent;
-}());
+};
+tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"])(),
+    tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:type", String)
+], CardComponent.prototype, "image", void 0);
+tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"])(),
+    tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:type", String)
+], CardComponent.prototype, "title", void 0);
+tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"])(),
+    tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:type", String)
+], CardComponent.prototype, "description", void 0);
+CardComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+        selector: 'app-card',
+        template: __webpack_require__(/*! ./card.component.html */ "./src/app/card/card.component.html"),
+        styles: [__webpack_require__(/*! ./card.component.css */ "./src/app/card/card.component.css")]
+    }),
+    tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [])
+], CardComponent);
 
 
 
@@ -528,24 +512,22 @@ module.exports = "<!-- footer -->\n<div class=\"hero-foot\">\n<footer class=\"fo
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "FooterComponent", function() { return FooterComponent; });
 /* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
 
 
-var FooterComponent = /** @class */ (function () {
-    function FooterComponent() {
+let FooterComponent = class FooterComponent {
+    constructor() { }
+    ngOnInit() {
     }
-    FooterComponent.prototype.ngOnInit = function () {
-    };
-    FooterComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
-        Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
-            selector: 'app-footer',
-            template: __webpack_require__(/*! ./footer.component.html */ "./src/app/footer/footer.component.html"),
-            styles: [__webpack_require__(/*! ./footer.component.css */ "./src/app/footer/footer.component.css")]
-        }),
-        tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [])
-    ], FooterComponent);
-    return FooterComponent;
-}());
+};
+FooterComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+        selector: 'app-footer',
+        template: __webpack_require__(/*! ./footer.component.html */ "./src/app/footer/footer.component.html"),
+        styles: [__webpack_require__(/*! ./footer.component.css */ "./src/app/footer/footer.component.css")]
+    }),
+    tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [])
+], FooterComponent);
 
 
 
@@ -569,7 +551,7 @@ module.exports = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<!-- header -->\n<div class=\"hero-head\">\n  <nav class=\"navbar\">\n    <div class=\"container\">\n      <!-- logo -->\n      <div class=\"navbar-brand\">\n        <a class=\"navbar-item\" routerLink=\"\">\n          <img onmousedown=\"return false;\" src=\"assets/img/Manacla-no-bg.png\" alt=\"Logo\">\n          {{ companyName }}\n        </a>\n\n        <a class=\"navbar-burger burger\" data-target=\"navbarMain\">\n          <span aria-hidden=\"true\"></span>\n          <span aria-hidden=\"true\"></span>\n          <span aria-hidden=\"true\"></span>\n        </a>\n      </div>\n\n      <!-- right menu -->\n      <div id=\"navbarMain\" class=\"navbar-menu\">\n        <div class=\"navbar-end\">\n          <span class=\"navbar-item\">\n            <a class=\"button is-white is-outlined\" routerLink=\"\" routerLinkActive=\"active\">\n              <span class=\"icon\">\n                <i class=\"fa fa-home\"></i>\n              </span>\n              <span>Home</span>\n            </a>\n          </span>\n\n          <span class=\"navbar-item\">\n            <a class=\"button is-white is-outlined\" routerLink=\"/about\" routerLinkActive=\"active\">\n              <span class=\"icon\">\n                <i class=\"fa fa-info-circle\"></i>\n              </span>\n              <span>About Us</span>\n            </a>\n          </span>\n\n          <span class=\"navbar-item\">\n            <a class=\"button is-white is-outlined\" href=\"https://goo.gl/forms/tFJOLC7NTxEZYNjp1\" target=\"_blank\">\n              <span class=\"icon\">\n                <i class=\"fa fa-envelope\"></i>\n              </span>\n              <span>Contact Us</span>\n            </a>\n          </span>\n        </div>\n      </div>\n    </div>\n  </nav>\n</div>"
+module.exports = "<!-- header -->\n<div class=\"hero-head\">\n  <nav class=\"navbar\">\n    <div class=\"container\">\n      <!-- logo -->\n      <div class=\"navbar-brand\">\n        <a class=\"navbar-item\" routerLink=\"\">\n          <img onmousedown=\"return false;\" src=\"assets/img/Manacla-no-bg.png\" alt=\"Logo\">\n          {{ companyName }}\n        </a>\n\n        <a class=\"navbar-burger burger\" data-target=\"navbarMain\">\n          <span aria-hidden=\"true\"></span>\n          <span aria-hidden=\"true\"></span>\n          <span aria-hidden=\"true\"></span>\n        </a>\n      </div>\n\n      <!-- right menu -->\n      <div id=\"navbarMain\" class=\"navbar-menu\">\n        <div class=\"navbar-end\">\n          <span class=\"navbar-item\">\n            <a class=\"button is-white is-outlined\" routerLink=\"\">\n              <span class=\"icon\">\n                <i class=\"fa fa-home\"></i>\n              </span>\n              <span>Home</span>\n            </a>\n          </span>\n\n          <span class=\"navbar-item\">\n            <a class=\"button is-white is-outlined\" routerLink=\"/about\">\n              <span class=\"icon\">\n                <i class=\"fa fa-info-circle\"></i>\n              </span>\n              <span>About Us</span>\n            </a>\n          </span>\n\n          <span class=\"navbar-item\">\n            <a class=\"button is-white is-outlined\" href=\"https://goo.gl/forms/tFJOLC7NTxEZYNjp1\" target=\"_blank\">\n              <span class=\"icon\">\n                <i class=\"fa fa-envelope\"></i>\n              </span>\n              <span>Contact Us</span>\n            </a>\n          </span>\n        </div>\n      </div>\n    </div>\n  </nav>\n</div>"
 
 /***/ }),
 
@@ -584,28 +566,26 @@ module.exports = "<!-- header -->\n<div class=\"hero-head\">\n  <nav class=\"nav
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "HeaderComponent", function() { return HeaderComponent; });
 /* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
 
 
-var HeaderComponent = /** @class */ (function () {
-    function HeaderComponent() {
+let HeaderComponent = class HeaderComponent {
+    constructor() { }
+    ngOnInit() {
     }
-    HeaderComponent.prototype.ngOnInit = function () {
-    };
-    tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
-        Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"])(),
-        tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:type", String)
-    ], HeaderComponent.prototype, "companyName", void 0);
-    HeaderComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
-        Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
-            selector: 'app-header',
-            template: __webpack_require__(/*! ./header.component.html */ "./src/app/header/header.component.html"),
-            styles: [__webpack_require__(/*! ./header.component.css */ "./src/app/header/header.component.css")]
-        }),
-        tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [])
-    ], HeaderComponent);
-    return HeaderComponent;
-}());
+};
+tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"])(),
+    tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:type", String)
+], HeaderComponent.prototype, "companyName", void 0);
+HeaderComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+        selector: 'app-header',
+        template: __webpack_require__(/*! ./header.component.html */ "./src/app/header/header.component.html"),
+        styles: [__webpack_require__(/*! ./header.component.css */ "./src/app/header/header.component.css")]
+    }),
+    tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [])
+], HeaderComponent);
 
 
 
@@ -624,15 +604,19 @@ __webpack_require__.r(__webpack_exports__);
 // This file can be replaced during build by using the `fileReplacements` array.
 // `ng build --prod` replaces `environment.ts` with `environment.prod.ts`.
 // The list of file replacements can be found in `angular.json`.
-var environment = {
+const environment = {
     production: false,
     firebase: {
-        apiKey: "AIzaSyDUhR7_ba-oJ1SpJ5cj0A0d1Q3WZ4Hy-BU",
-        authDomain: "manacla-dc3ba.firebaseapp.com",
-        databaseURL: "https://manacla-dc3ba.firebaseio.com",
-        projectId: "manacla-dc3ba",
-        storageBucket: "manacla-dc3ba.appspot.com",
-        messagingSenderId: "88289724164"
+        apiKey: 'AIzaSyDUhR7_ba-oJ1SpJ5cj0A0d1Q3WZ4Hy-BU',
+        authDomain: 'manacla-dc3ba.firebaseapp.com',
+        databaseURL: 'https://manacla-dc3ba.firebaseio.com',
+        projectId: 'manacla-dc3ba',
+        storageBucket: 'manacla-dc3ba.appspot.com',
+        messagingSenderId: '88289724164'
+    },
+    manacla: {
+        id1: '8461d42180edcc0',
+        id2: 'bf0e2f8a12d65da49a87bb578911a73ca184035a'
     }
 };
 /*
@@ -656,8 +640,8 @@ var environment = {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
-/* harmony import */ var _angular_platform_browser_dynamic__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/platform-browser-dynamic */ "./node_modules/@angular/platform-browser-dynamic/fesm5/platform-browser-dynamic.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var _angular_platform_browser_dynamic__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/platform-browser-dynamic */ "./node_modules/@angular/platform-browser-dynamic/fesm2015/platform-browser-dynamic.js");
 /* harmony import */ var _app_app_module__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./app/app.module */ "./src/app/app.module.ts");
 /* harmony import */ var _environments_environment__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./environments/environment */ "./src/environments/environment.ts");
 
@@ -668,7 +652,7 @@ if (_environments_environment__WEBPACK_IMPORTED_MODULE_3__["environment"].produc
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["enableProdMode"])();
 }
 Object(_angular_platform_browser_dynamic__WEBPACK_IMPORTED_MODULE_1__["platformBrowserDynamic"])().bootstrapModule(_app_app_module__WEBPACK_IMPORTED_MODULE_2__["AppModule"])
-    .catch(function (err) { return console.error(err); });
+    .catch(err => console.error(err));
 
 
 /***/ }),
