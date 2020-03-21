@@ -10,7 +10,7 @@ export class CardService {
 
   constructor(private firestore: AngularFirestore) { }
 
-  getCards = (): Observable<DocumentChangeAction<unknown>[]> => {
+  getCards = (): Observable<DocumentChangeAction<{}>[]> => {
     return this.firestore.collection('cards').snapshotChanges();
   }
 

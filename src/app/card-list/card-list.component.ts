@@ -16,9 +16,10 @@ export class CardListComponent implements OnInit {
   ngOnInit() {
     this.cardService.getCards().subscribe(data => {
       this.cards = data.map(e => {
+        const payload = e.payload;
         return {
-          id: e.payload.doc.id,
-          ...e.payload.doc.data()
+          id: payload.doc.id,
+          ...payload.doc.data()
         } as Card;
       });
     });
