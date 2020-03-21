@@ -1,6 +1,9 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { CardListComponent } from './card-list.component';
+import { CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
+import { CardService } from '../card.service';
+import { of } from 'rxjs';
 
 describe('CardListComponent', () => {
   let component: CardListComponent;
@@ -8,7 +11,13 @@ describe('CardListComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ CardListComponent ]
+      declarations: [ CardListComponent ],
+      providers: [{
+        provide: CardService, useValue: {
+          getCards: jasmine.createSpy('getCards').and.returnValue(of([]))
+        }
+      }],
+      schemas: [ CUSTOM_ELEMENTS_SCHEMA ]
     })
     .compileComponents();
   }));
