@@ -8,14 +8,14 @@ describe('FooterComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ FooterComponent ],
+      declarations: [FooterComponent],
       providers: [{
         provide: DatePipe, useValue: {
           transform: jasmine.createSpy('transform')
         }
       }]
     })
-    .compileComponents();
+      .compileComponents();
   }));
 
   beforeEach(() => {

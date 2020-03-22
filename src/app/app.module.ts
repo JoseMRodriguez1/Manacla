@@ -7,12 +7,12 @@ import { AngularFirestoreModule } from '@angular/fire/firestore';
 import { environment } from '../environments/environment';
 
 import { AppComponent } from './app.component';
-import { HeaderComponent } from './header/header.component';
-import { FooterComponent } from './footer/footer.component';
-import { CardComponent } from './card/card.component';
+import { HeaderComponent } from './components/header/header.component';
+import { FooterComponent } from './components/footer/footer.component';
+import { CardComponent } from './components/card/card.component';
 
 import { AppRoutingModule, routingComponents } from './app-routing.module';
-import { AboutComponent } from './about/about.component';
+import { AboutComponent } from './components/about/about.component';
 
 @NgModule({
   declarations: [

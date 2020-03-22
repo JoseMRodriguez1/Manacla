@@ -2,7 +2,7 @@ import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { CardListComponent } from './card-list.component';
 import { CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
-import { CardService } from '../card.service';
+import { CardService } from '../../services/card.service';
 import { of } from 'rxjs';
 
 describe('CardListComponent', () => {

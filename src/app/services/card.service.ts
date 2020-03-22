@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 import { AngularFirestore, DocumentChangeAction } from '@angular/fire/firestore';
-import { Card } from 'src/app/card.model';
+import { Card } from 'src/app/domain/card.model';
 import { Observable } from 'rxjs';
 
 @Injectable({

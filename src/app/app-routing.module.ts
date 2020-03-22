@@ -1,9 +1,9 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
-import { BodyComponent } from './body/body.component';
-import { AboutComponent } from './about/about.component';
-import { CardListComponent } from './card-list/card-list.component';
+import { BodyComponent } from './components/body/body.component';
+import { AboutComponent } from './components/about/about.component';
+import { CardListComponent } from './components/card-list/card-list.component';
 
 const routes: Routes = [
     { path: '', component: BodyComponent },

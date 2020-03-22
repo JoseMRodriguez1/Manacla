@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
-import { CardService } from 'src/app/card.service';
-import { Card } from 'src/app/card.model';
+import { CardService } from 'src/app/services/card.service';
+import { Card } from 'src/app/domain/card.model';
 
 @Component({
   selector: 'app-card-list',

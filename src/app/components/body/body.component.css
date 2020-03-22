@@ -1,0 +1,42 @@
+h1 {
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 250%;
+  }
+
+h2 {
+    text-align: center;
+}
+
+.notification-container {
+  background-color: rgba(255, 255, 255, 0.7);
+  height: 200px;
+  display: flex;
+  flex-direction: row;
+}
+
+.notification-container > div {
+  margin: 5px;
+  text-align: center;
+}
+
+.notification-container .logo-img {
+  text-align: center;
+  flex-grow: 1;
+}
+
+.notification-container .information {
+  background-color: rgba(255, 255, 255, 0.7);
+  color: #000;
+  flex-grow: 3;
+}
+
+.contact {
+	height: 100%;
+}
+
+.card-image {
+  border: 1px;
+  border-style: solid;
+  border-color: #fff;
+}

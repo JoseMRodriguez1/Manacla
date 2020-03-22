@@ -1,18 +1,5 @@
 (window["webpackJsonp"] = window["webpackJsonp"] || []).push([["main"],{
 
-/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/about/about.component.html":
-/*!**********************************************************************************!*\
-  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/about/about.component.html ***!
-  \**********************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<p class=\"center\">\n  Manacla is a beautiful small town in San Jose de las Matas, Dominican Republic.\n  <br />\n  More information will be added soon.\n</p>\n");
-
-/***/ }),
-
 /***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/app.component.html":
 /*!**************************************************************************!*\
   !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/app.component.html ***!
@@ -22,72 +9,85 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<section class=\"hero is-dark is-fullheight\">\r\n  <app-header [companyName]=\"companyName\"></app-header>\r\n\r\n  <div class=\"hero-body\">\r\n    <div class=\"container\">\r\n      <router-outlet></router-outlet>\r\n    </div>\r\n  </div>\r\n\r\n  <app-footer></app-footer>\r\n</section>");
+/* harmony default export */ __webpack_exports__["default"] = ("<section class=\"hero is-dark is-fullheight\">\r\n  <app-header [companyName]=\"companyName\"></app-header>\r\n\r\n  <div class=\"hero-body\">\r\n    <div class=\"container\">\r\n      <router-outlet></router-outlet>\r\n    </div>\r\n  </div>\r\n\r\n  <app-footer></app-footer>\r\n</section>\r\n");
 
 /***/ }),
 
-/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/body/body.component.html":
-/*!********************************************************************************!*\
-  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/body/body.component.html ***!
-  \********************************************************************************/
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/components/about/about.component.html":
+/*!*********************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/components/about/about.component.html ***!
+  \*********************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"columns features\">\n  <div class=\"container\">\n    <div class=\"notification\">\n      <div style=\"text-align:center\">\n        <h1>\n          Manacla's website is currently under construction.\n        </h1>\n      </div>\n      <div class=\"spacing\"></div>\n      <br />\n      <div class=\"logo-img\">\n        <img onmousedown=\"return false;\" src=\"assets/img/Manacla-no-bg.png\" width=\"130\">\n      </div>\n    </div>\n  </div>\n</div>\n\n<div class=\"columns features\">\n  <div class=\"column is-4\">\n    <app-card image=\"assets/images/coffee_tree.jpg\" title=\"Coffee\" description=\"Coffee trees produce berries, called coffee cherries, that turn bright red when they are ripe and ready\n          to pick. Manacla is know for growing coffee.\"></app-card>\n  </div>\n  <div class=\"column is-4\">\n    <app-card image=\"assets/images/OldHouse.jpg\" title=\"Old House in Manacla\"\n      description=\"This old house displays some of the typical colors of houses in Manacla.\"></app-card>\n  </div>\n  <div class=\"column is-4\">\n    <app-card image=\"assets/images/nature.jpg\" title=\"Nature\" description=\"Nature at it's fullest\"></app-card>\n  </div>\n</div>\n\n<div class=\"columns features\">\n  <div class=\"column is-4\">\n    <app-card image=\"assets/images/t.jpg\" title=\"Tuna (Nopal)\" description=\"\"></app-card>\n  </div>\n  <div class=\"column is-4\">\n    <app-card image=\"assets/images/flower.jpg\" title=\"Flower\" description=\"\"></app-card>\n  </div>\n  <div class=\"column is-4\">\n    <app-card image=\"assets/images/rio.jpg\" title=\"River\" description=\"\"></app-card>\n  </div>\n</div>");
+/* harmony default export */ __webpack_exports__["default"] = ("<p class=\"center\">\n  Manacla is a beautiful small town in San Jose de las Matas, Dominican Republic.\n  <br />\n  More information will be added soon.\n</p>\n");
 
 /***/ }),
 
-/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/card-list/card-list.component.html":
-/*!******************************************************************************************!*\
-  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/card-list/card-list.component.html ***!
-  \******************************************************************************************/
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/components/body/body.component.html":
+/*!*******************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/components/body/body.component.html ***!
+  \*******************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<table>\n  <thead>\n    <th>Image</th>\n    <th>Title</th>\n    <th>Description</th>\n    <th>Upload Date</th>\n  </thead>\n  <tbody>\n    <tr *ngFor=\"let card of cards\">\n\n      <td>{{card.image}}</td>\n      <td>{{card.title}}</td>\n      <td>{{card.description}}</td>\n      <td>{{card.uploadDate}}</td>\n      <td>\n        <button (click)=\"delete(card.id)\">Delete</button>\n      </td>\n    </tr>\n  </tbody>\n</table>");
+/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"columns features\">\n  <div class=\"container\">\n    <div class=\"notification-container\">\n      <div class=\"logo-img\">\n        <img onmousedown=\"return false;\" src=\"assets/img/Manacla-no-bg.png\" width=\"130\">\n      </div>\n      <div class=\"notification information\">\n        <div class=\"info\">\n          <h1>Fiestas 2020</h1>\n          <p>\n            Julio 30 & 31\n            <br />y\n            <br />Agosto 1 & 2\n          </p>\n        </div>\n      </div>\n    </div>\n  </div>\n</div>\n\n<div class=\"columns features\" *ngFor=\"let cardArray of cards\">\n  <div class=\"column is-4\" *ngFor=\"let card of cardArray\">\n    <app-card image=\"assets/images/{{card.image}}\" title=\"{{card.title}}\"\n      description=\"{{card.description}}\"></app-card>\n  </div>\n</div>\n");
 
 /***/ }),
 
-/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/card/card.component.html":
-/*!********************************************************************************!*\
-  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/card/card.component.html ***!
-  \********************************************************************************/
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/components/card-list/card-list.component.html":
+/*!*****************************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/components/card-list/card-list.component.html ***!
+  \*****************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"card is-shady\">\n  <div class=\"card-image\">\n    <figure class=\"image is-4by3\">\n      <img src=\"{{ image }}\" alt=\"Placeholder image\" class=\"modal-button\"\n        data-target=\"modal-image2\">\n    </figure>\n  </div>\n  <div class=\"card-content\">\n    <div class=\"content\">\n      <h4>{{ title }}</h4>\n      <p>{{ description }}</p>\n    </div>\n  </div>\n</div>");
+/* harmony default export */ __webpack_exports__["default"] = ("<table>\n  <thead>\n    <th>Image</th>\n    <th>Title</th>\n    <th>Description</th>\n    <th>Upload Date</th>\n  </thead>\n  <tbody>\n    <tr *ngFor=\"let card of cards\">\n\n      <td>{{card.image}}</td>\n      <td>{{card.title}}</td>\n      <td>{{card.description}}</td>\n      <td>{{card.uploadDate}}</td>\n      <td>\n        <button (click)=\"delete(card.id)\">Delete</button>\n      </td>\n    </tr>\n  </tbody>\n</table>\n");
 
 /***/ }),
 
-/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/footer/footer.component.html":
-/*!************************************************************************************!*\
-  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/footer/footer.component.html ***!
-  \************************************************************************************/
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/components/card/card.component.html":
+/*!*******************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/components/card/card.component.html ***!
+  \*******************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<!-- footer -->\n<div class=\"hero-foot\">\n<footer class=\"footer\">\n  <div class=\"container\">\n  <div class=\"content has-text-centered\">\n    <p>\n      Copyright &copy; 2019-{{currentYear}} Manacla<br />\n      Trademarks, trade names and logos displayed on this website are the property of their respective owners.<br />\n      All Rights Reserved.\n    </p>\n  </div>\n  </div>\n</footer>\n</div>");
+/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"card is-shady\">\n  <div class=\"card-image\">\n    <figure class=\"image is-4by3\">\n      <img src=\"{{ image }}\" alt=\"{{ title }}\" class=\"modal-button\"\n        data-target=\"modal-image2\">\n    </figure>\n  </div>\n  <div class=\"card-content\">\n    <div class=\"content\">\n      <h4>{{ title }}</h4>\n      <p>{{ description }}</p>\n    </div>\n  </div>\n</div>\n");
 
 /***/ }),
 
-/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/header/header.component.html":
-/*!************************************************************************************!*\
-  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/header/header.component.html ***!
-  \************************************************************************************/
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/components/footer/footer.component.html":
+/*!***********************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/components/footer/footer.component.html ***!
+  \***********************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<!-- header -->\n<div class=\"hero-head\">\n  <nav class=\"navbar\">\n    <div class=\"container\">\n      <!-- logo -->\n      <div class=\"navbar-brand\">\n        <a class=\"navbar-item\" routerLink=\"\">\n          <img onmousedown=\"return false;\" src=\"assets/img/Manacla-no-bg.png\" alt=\"Logo\">\n          {{ companyName }}\n        </a>\n\n        <a class=\"navbar-burger burger\" data-target=\"navbarMain\">\n          <span aria-hidden=\"true\"></span>\n          <span aria-hidden=\"true\"></span>\n          <span aria-hidden=\"true\"></span>\n        </a>\n      </div>\n\n      <!-- right menu -->\n      <div id=\"navbarMain\" class=\"navbar-menu\">\n        <div class=\"navbar-end\">\n          <span class=\"navbar-item\">\n            <a class=\"button is-white is-outlined\" routerLink=\"\">\n              <span class=\"icon\">\n                <i class=\"fa fa-home\"></i>\n              </span>\n              <span>Home</span>\n            </a>\n          </span>\n\n          <span class=\"navbar-item\">\n            <a class=\"button is-white is-outlined\" routerLink=\"/about\">\n              <span class=\"icon\">\n                <i class=\"fa fa-info-circle\"></i>\n              </span>\n              <span>About Us</span>\n            </a>\n          </span>\n\n          <span class=\"navbar-item\">\n            <a class=\"button is-white is-outlined\" href=\"https://goo.gl/forms/tFJOLC7NTxEZYNjp1\" target=\"_blank\">\n              <span class=\"icon\">\n                <i class=\"fa fa-envelope\"></i>\n              </span>\n              <span>Contact Us</span>\n            </a>\n          </span>\n        </div>\n      </div>\n    </div>\n  </nav>\n</div>");
+/* harmony default export */ __webpack_exports__["default"] = ("<!-- footer -->\n<div class=\"hero-foot\">\n<footer class=\"footer\">\n  <div class=\"container\">\n  <div class=\"content has-text-centered\">\n    <p>\n      Copyright &copy; 2019-{{currentYear}} Manacla<br />\n      Trademarks, trade names and logos displayed on this website are the property of their respective owners.<br />\n      All Rights Reserved.\n    </p>\n  </div>\n  </div>\n</footer>\n</div>\n");
+
+/***/ }),
+
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/components/header/header.component.html":
+/*!***********************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/components/header/header.component.html ***!
+  \***********************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("<!-- header -->\n<div class=\"hero-head\">\n  <nav class=\"navbar\">\n    <div class=\"container\">\n      <!-- logo -->\n      <div class=\"navbar-brand\">\n        <a class=\"navbar-item\" routerLink=\"\">\n          <img onmousedown=\"return false;\" src=\"assets/img/Manacla-no-bg.png\" alt=\"Logo\">&nbsp;\n          {{ companyName }}\n        </a>\n\n        <a class=\"navbar-burger burger\" data-target=\"navbarMain\">\n          <span aria-hidden=\"true\"></span>\n          <span aria-hidden=\"true\"></span>\n          <span aria-hidden=\"true\"></span>\n        </a>\n      </div>\n\n      <!-- right menu -->\n      <div id=\"navbarMain\" class=\"navbar-menu\">\n        <div class=\"navbar-end\">\n          <span class=\"navbar-item\">\n            <a class=\"button is-white is-outlined\" routerLink=\"\">\n              <span class=\"icon\">\n                <i class=\"fa fa-home\"></i>\n              </span>\n              <span>Home</span>\n            </a>\n          </span>\n\n          <span class=\"navbar-item\">\n            <a class=\"button is-white is-outlined\" routerLink=\"/about\">\n              <span class=\"icon\">\n                <i class=\"fa fa-info-circle\"></i>\n              </span>\n              <span>About Us</span>\n            </a>\n          </span>\n\n          <span class=\"navbar-item\">\n            <a class=\"button is-white is-outlined\" href=\"https://goo.gl/forms/tFJOLC7NTxEZYNjp1\" target=\"_blank\">\n              <span class=\"icon\">\n                <i class=\"fa fa-envelope\"></i>\n              </span>\n              <span>Contact Us</span>\n            </a>\n          </span>\n        </div>\n      </div>\n    </div>\n  </nav>\n</div>\n");
 
 /***/ }),
 
@@ -362,51 +362,6 @@ webpackEmptyAsyncContext.id = "./src/$$_lazy_route_resource lazy recursive";
 
 /***/ }),
 
-/***/ "./src/app/about/about.component.css":
-/*!*******************************************!*\
-  !*** ./src/app/about/about.component.css ***!
-  \*******************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = (".center {\r\n    text-align: center;\r\n}\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvYWJvdXQvYWJvdXQuY29tcG9uZW50LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtJQUNJLGtCQUFrQjtBQUN0QiIsImZpbGUiOiJzcmMvYXBwL2Fib3V0L2Fib3V0LmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyIuY2VudGVyIHtcclxuICAgIHRleHQtYWxpZ246IGNlbnRlcjtcclxufSJdfQ== */");
-
-/***/ }),
-
-/***/ "./src/app/about/about.component.ts":
-/*!******************************************!*\
-  !*** ./src/app/about/about.component.ts ***!
-  \******************************************/
-/*! exports provided: AboutComponent */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AboutComponent", function() { return AboutComponent; });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
-
-
-let AboutComponent = class AboutComponent {
-    constructor() { }
-    ngOnInit() {
-    }
-};
-AboutComponent = Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"])([
-    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
-        selector: 'app-about',
-        template: Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"])(__webpack_require__(/*! raw-loader!./about.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/about/about.component.html")).default,
-        styles: [Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"])(__webpack_require__(/*! ./about.component.css */ "./src/app/about/about.component.css")).default]
-    }),
-    Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"])("design:paramtypes", [])
-], AboutComponent);
-
-
-
-/***/ }),
-
 /***/ "./src/app/app-routing.module.ts":
 /*!***************************************!*\
   !*** ./src/app/app-routing.module.ts ***!
@@ -421,9 +376,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
 /* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/__ivy_ngcc__/fesm2015/router.js");
-/* harmony import */ var _body_body_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./body/body.component */ "./src/app/body/body.component.ts");
-/* harmony import */ var _about_about_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./about/about.component */ "./src/app/about/about.component.ts");
-/* harmony import */ var _card_list_card_list_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./card-list/card-list.component */ "./src/app/card-list/card-list.component.ts");
+/* harmony import */ var _components_body_body_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./components/body/body.component */ "./src/app/components/body/body.component.ts");
+/* harmony import */ var _components_about_about_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./components/about/about.component */ "./src/app/components/about/about.component.ts");
+/* harmony import */ var _components_card_list_card_list_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./components/card-list/card-list.component */ "./src/app/components/card-list/card-list.component.ts");
 
 
 
@@ -431,9 +386,9 @@ __webpack_require__.r(__webpack_exports__);
 
 
 const routes = [
-    { path: '', component: _body_body_component__WEBPACK_IMPORTED_MODULE_3__["BodyComponent"] },
-    { path: 'about', component: _about_about_component__WEBPACK_IMPORTED_MODULE_4__["AboutComponent"] },
-    { path: 'contact', component: _card_list_card_list_component__WEBPACK_IMPORTED_MODULE_5__["CardListComponent"] }
+    { path: '', component: _components_body_body_component__WEBPACK_IMPORTED_MODULE_3__["BodyComponent"] },
+    { path: 'about', component: _components_about_about_component__WEBPACK_IMPORTED_MODULE_4__["AboutComponent"] },
+    { path: 'contact', component: _components_card_list_card_list_component__WEBPACK_IMPORTED_MODULE_5__["CardListComponent"] }
 ];
 let AppRoutingModule = class AppRoutingModule {
 };
@@ -444,7 +399,7 @@ AppRoutingModule = Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"])([
     })
 ], AppRoutingModule);
 
-const routingComponents = [_body_body_component__WEBPACK_IMPORTED_MODULE_3__["BodyComponent"], _card_list_card_list_component__WEBPACK_IMPORTED_MODULE_5__["CardListComponent"]];
+const routingComponents = [_components_body_body_component__WEBPACK_IMPORTED_MODULE_3__["BodyComponent"], _components_card_list_card_list_component__WEBPACK_IMPORTED_MODULE_5__["CardListComponent"]];
 
 
 /***/ }),
@@ -512,11 +467,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _angular_fire_firestore__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @angular/fire/firestore */ "./node_modules/@angular/fire/__ivy_ngcc__/firestore/es2015/index.js");
 /* harmony import */ var _environments_environment__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../environments/environment */ "./src/environments/environment.ts");
 /* harmony import */ var _app_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./app.component */ "./src/app/app.component.ts");
-/* harmony import */ var _header_header_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./header/header.component */ "./src/app/header/header.component.ts");
-/* harmony import */ var _footer_footer_component__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./footer/footer.component */ "./src/app/footer/footer.component.ts");
-/* harmony import */ var _card_card_component__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./card/card.component */ "./src/app/card/card.component.ts");
+/* harmony import */ var _components_header_header_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./components/header/header.component */ "./src/app/components/header/header.component.ts");
+/* harmony import */ var _components_footer_footer_component__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./components/footer/footer.component */ "./src/app/components/footer/footer.component.ts");
+/* harmony import */ var _components_card_card_component__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./components/card/card.component */ "./src/app/components/card/card.component.ts");
 /* harmony import */ var _app_routing_module__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./app-routing.module */ "./src/app/app-routing.module.ts");
-/* harmony import */ var _about_about_component__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./about/about.component */ "./src/app/about/about.component.ts");
+/* harmony import */ var _components_about_about_component__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./components/about/about.component */ "./src/app/components/about/about.component.ts");
 
 
 
@@ -536,11 +491,11 @@ AppModule = Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"])([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_3__["NgModule"])({
         declarations: [
             _app_component__WEBPACK_IMPORTED_MODULE_7__["AppComponent"],
-            _header_header_component__WEBPACK_IMPORTED_MODULE_8__["HeaderComponent"],
-            _footer_footer_component__WEBPACK_IMPORTED_MODULE_9__["FooterComponent"],
-            _card_card_component__WEBPACK_IMPORTED_MODULE_10__["CardComponent"],
+            _components_header_header_component__WEBPACK_IMPORTED_MODULE_8__["HeaderComponent"],
+            _components_footer_footer_component__WEBPACK_IMPORTED_MODULE_9__["FooterComponent"],
+            _components_card_card_component__WEBPACK_IMPORTED_MODULE_10__["CardComponent"],
             _app_routing_module__WEBPACK_IMPORTED_MODULE_11__["routingComponents"],
-            _about_about_component__WEBPACK_IMPORTED_MODULE_12__["AboutComponent"]
+            _components_about_about_component__WEBPACK_IMPORTED_MODULE_12__["AboutComponent"]
         ],
         imports: [
             _angular_platform_browser__WEBPACK_IMPORTED_MODULE_1__["BrowserModule"],
@@ -557,23 +512,68 @@ AppModule = Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"])([
 
 /***/ }),
 
-/***/ "./src/app/body/body.component.css":
-/*!*****************************************!*\
-  !*** ./src/app/body/body.component.css ***!
-  \*****************************************/
+/***/ "./src/app/components/about/about.component.css":
+/*!******************************************************!*\
+  !*** ./src/app/components/about/about.component.css ***!
+  \******************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("h1 {\r\n    color: #000;\r\n    font-family: Arial, Helvetica, sans-serif;\r\n    font-size: 250%;\r\n  }\r\n\r\nh2 {\r\n    text-align: center;\r\n}\r\n\r\n.notification {\r\n  background-color: rgba(255, 255, 255, 0.7);\r\n}\r\n\r\n.contact {\r\n\theight: 100%;\r\n}\r\n\r\n.logo-img {\r\n\ttext-align: center;\r\n}\r\n\r\n.card-image {\r\n  border: 1px;\r\n  border-style: solid;\r\n  border-color: #fff;\r\n}\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvYm9keS9ib2R5LmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7SUFDSSxXQUFXO0lBQ1gseUNBQXlDO0lBQ3pDLGVBQWU7RUFDakI7O0FBRUY7SUFDSSxrQkFBa0I7QUFDdEI7O0FBRUE7RUFDRSwwQ0FBMEM7QUFDNUM7O0FBRUE7Q0FDQyxZQUFZO0FBQ2I7O0FBRUE7Q0FDQyxrQkFBa0I7QUFDbkI7O0FBRUE7RUFDRSxXQUFXO0VBQ1gsbUJBQW1CO0VBQ25CLGtCQUFrQjtBQUNwQiIsImZpbGUiOiJzcmMvYXBwL2JvZHkvYm9keS5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiaDEge1xyXG4gICAgY29sb3I6ICMwMDA7XHJcbiAgICBmb250LWZhbWlseTogQXJpYWwsIEhlbHZldGljYSwgc2Fucy1zZXJpZjtcclxuICAgIGZvbnQtc2l6ZTogMjUwJTtcclxuICB9XHJcblxyXG5oMiB7XHJcbiAgICB0ZXh0LWFsaWduOiBjZW50ZXI7XHJcbn1cclxuXHJcbi5ub3RpZmljYXRpb24ge1xyXG4gIGJhY2tncm91bmQtY29sb3I6IHJnYmEoMjU1LCAyNTUsIDI1NSwgMC43KTtcclxufVxyXG5cclxuLmNvbnRhY3Qge1xyXG5cdGhlaWdodDogMTAwJTtcclxufVxyXG5cclxuLmxvZ28taW1nIHtcclxuXHR0ZXh0LWFsaWduOiBjZW50ZXI7XHJcbn1cclxuXHJcbi5jYXJkLWltYWdlIHtcclxuICBib3JkZXI6IDFweDtcclxuICBib3JkZXItc3R5bGU6IHNvbGlkO1xyXG4gIGJvcmRlci1jb2xvcjogI2ZmZjtcclxufSJdfQ== */");
+/* harmony default export */ __webpack_exports__["default"] = (".center {\r\n    text-align: center;\r\n}\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9hYm91dC9hYm91dC5jb21wb25lbnQuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0lBQ0ksa0JBQWtCO0FBQ3RCIiwiZmlsZSI6InNyYy9hcHAvY29tcG9uZW50cy9hYm91dC9hYm91dC5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLmNlbnRlciB7XHJcbiAgICB0ZXh0LWFsaWduOiBjZW50ZXI7XHJcbn0iXX0= */");
 
 /***/ }),
 
-/***/ "./src/app/body/body.component.ts":
-/*!****************************************!*\
-  !*** ./src/app/body/body.component.ts ***!
-  \****************************************/
+/***/ "./src/app/components/about/about.component.ts":
+/*!*****************************************************!*\
+  !*** ./src/app/components/about/about.component.ts ***!
+  \*****************************************************/
+/*! exports provided: AboutComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AboutComponent", function() { return AboutComponent; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
+
+
+let AboutComponent = class AboutComponent {
+    constructor() { }
+    ngOnInit() {
+    }
+};
+AboutComponent = Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"])([
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+        selector: 'app-about',
+        template: Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"])(__webpack_require__(/*! raw-loader!./about.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/components/about/about.component.html")).default,
+        styles: [Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"])(__webpack_require__(/*! ./about.component.css */ "./src/app/components/about/about.component.css")).default]
+    }),
+    Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"])("design:paramtypes", [])
+], AboutComponent);
+
+
+
+/***/ }),
+
+/***/ "./src/app/components/body/body.component.css":
+/*!****************************************************!*\
+  !*** ./src/app/components/body/body.component.css ***!
+  \****************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("h1 {\r\n    color: #000;\r\n    font-family: Arial, Helvetica, sans-serif;\r\n    font-size: 250%;\r\n  }\r\n\r\nh2 {\r\n    text-align: center;\r\n}\r\n\r\n.notification-container {\r\n  background-color: rgba(255, 255, 255, 0.7);\r\n  height: 200px;\r\n  display: flex;\r\n  flex-direction: row;\r\n}\r\n\r\n.notification-container > div {\r\n  margin: 5px;\r\n  text-align: center;\r\n}\r\n\r\n.notification-container .logo-img {\r\n  text-align: center;\r\n  flex-grow: 1;\r\n}\r\n\r\n.notification-container .information {\r\n  background-color: rgba(255, 255, 255, 0.7);\r\n  color: #000;\r\n  flex-grow: 3;\r\n}\r\n\r\n.contact {\r\n\theight: 100%;\r\n}\r\n\r\n.card-image {\r\n  border: 1px;\r\n  border-style: solid;\r\n  border-color: #fff;\r\n}\r\n\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9ib2R5L2JvZHkuY29tcG9uZW50LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtJQUNJLFdBQVc7SUFDWCx5Q0FBeUM7SUFDekMsZUFBZTtFQUNqQjs7QUFFRjtJQUNJLGtCQUFrQjtBQUN0Qjs7QUFFQTtFQUNFLDBDQUEwQztFQUMxQyxhQUFhO0VBQ2IsYUFBYTtFQUNiLG1CQUFtQjtBQUNyQjs7QUFFQTtFQUNFLFdBQVc7RUFDWCxrQkFBa0I7QUFDcEI7O0FBRUE7RUFDRSxrQkFBa0I7RUFDbEIsWUFBWTtBQUNkOztBQUVBO0VBQ0UsMENBQTBDO0VBQzFDLFdBQVc7RUFDWCxZQUFZO0FBQ2Q7O0FBRUE7Q0FDQyxZQUFZO0FBQ2I7O0FBRUE7RUFDRSxXQUFXO0VBQ1gsbUJBQW1CO0VBQ25CLGtCQUFrQjtBQUNwQiIsImZpbGUiOiJzcmMvYXBwL2NvbXBvbmVudHMvYm9keS9ib2R5LmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyJoMSB7XHJcbiAgICBjb2xvcjogIzAwMDtcclxuICAgIGZvbnQtZmFtaWx5OiBBcmlhbCwgSGVsdmV0aWNhLCBzYW5zLXNlcmlmO1xyXG4gICAgZm9udC1zaXplOiAyNTAlO1xyXG4gIH1cclxuXHJcbmgyIHtcclxuICAgIHRleHQtYWxpZ246IGNlbnRlcjtcclxufVxyXG5cclxuLm5vdGlmaWNhdGlvbi1jb250YWluZXIge1xyXG4gIGJhY2tncm91bmQtY29sb3I6IHJnYmEoMjU1LCAyNTUsIDI1NSwgMC43KTtcclxuICBoZWlnaHQ6IDIwMHB4O1xyXG4gIGRpc3BsYXk6IGZsZXg7XHJcbiAgZmxleC1kaXJlY3Rpb246IHJvdztcclxufVxyXG5cclxuLm5vdGlmaWNhdGlvbi1jb250YWluZXIgPiBkaXYge1xyXG4gIG1hcmdpbjogNXB4O1xyXG4gIHRleHQtYWxpZ246IGNlbnRlcjtcclxufVxyXG5cclxuLm5vdGlmaWNhdGlvbi1jb250YWluZXIgLmxvZ28taW1nIHtcclxuICB0ZXh0LWFsaWduOiBjZW50ZXI7XHJcbiAgZmxleC1ncm93OiAxO1xyXG59XHJcblxyXG4ubm90aWZpY2F0aW9uLWNvbnRhaW5lciAuaW5mb3JtYXRpb24ge1xyXG4gIGJhY2tncm91bmQtY29sb3I6IHJnYmEoMjU1LCAyNTUsIDI1NSwgMC43KTtcclxuICBjb2xvcjogIzAwMDtcclxuICBmbGV4LWdyb3c6IDM7XHJcbn1cclxuXHJcbi5jb250YWN0IHtcclxuXHRoZWlnaHQ6IDEwMCU7XHJcbn1cclxuXHJcbi5jYXJkLWltYWdlIHtcclxuICBib3JkZXI6IDFweDtcclxuICBib3JkZXItc3R5bGU6IHNvbGlkO1xyXG4gIGJvcmRlci1jb2xvcjogI2ZmZjtcclxufVxyXG4iXX0= */");
+
+/***/ }),
+
+/***/ "./src/app/components/body/body.component.ts":
+/*!***************************************************!*\
+  !*** ./src/app/components/body/body.component.ts ***!
+  \***************************************************/
 /*! exports provided: BodyComponent */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -582,11 +582,24 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "BodyComponent", function() { return BodyComponent; });
 /* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
+/* harmony import */ var src_app_constants_cardsInfo__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! src/app/constants/cardsInfo */ "./src/app/constants/cardsInfo.ts");
+
 
 
 let BodyComponent = class BodyComponent {
-    constructor() { }
+    constructor() {
+        this.cardsInfo = src_app_constants_cardsInfo__WEBPACK_IMPORTED_MODULE_2__["CARDS_INFO"];
+        this.get2DArray = (list, split) => {
+            const result = [];
+            const input = list.slice(0);
+            while (input[0]) {
+                result.push(input.splice(0, split));
+            }
+            return result;
+        };
+    }
     ngOnInit() {
+        this.cards = this.get2DArray(this.cardsInfo, 3);
     }
 };
 Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"])([
@@ -600,8 +613,8 @@ Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"])([
 BodyComponent = Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"])([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: 'app-body',
-        template: Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"])(__webpack_require__(/*! raw-loader!./body.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/body/body.component.html")).default,
-        styles: [Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"])(__webpack_require__(/*! ./body.component.css */ "./src/app/body/body.component.css")).default]
+        template: Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"])(__webpack_require__(/*! raw-loader!./body.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/components/body/body.component.html")).default,
+        styles: [Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"])(__webpack_require__(/*! ./body.component.css */ "./src/app/components/body/body.component.css")).default]
     }),
     Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"])("design:paramtypes", [])
 ], BodyComponent);
@@ -610,23 +623,23 @@ BodyComponent = Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"])([
 
 /***/ }),
 
-/***/ "./src/app/card-list/card-list.component.css":
-/*!***************************************************!*\
-  !*** ./src/app/card-list/card-list.component.css ***!
-  \***************************************************/
+/***/ "./src/app/components/card-list/card-list.component.css":
+/*!**************************************************************!*\
+  !*** ./src/app/components/card-list/card-list.component.css ***!
+  \**************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2NhcmQtbGlzdC9jYXJkLWxpc3QuY29tcG9uZW50LmNzcyJ9 */");
+/* harmony default export */ __webpack_exports__["default"] = ("\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2NvbXBvbmVudHMvY2FyZC1saXN0L2NhcmQtbGlzdC5jb21wb25lbnQuY3NzIn0= */");
 
 /***/ }),
 
-/***/ "./src/app/card-list/card-list.component.ts":
-/*!**************************************************!*\
-  !*** ./src/app/card-list/card-list.component.ts ***!
-  \**************************************************/
+/***/ "./src/app/components/card-list/card-list.component.ts":
+/*!*************************************************************!*\
+  !*** ./src/app/components/card-list/card-list.component.ts ***!
+  \*************************************************************/
 /*! exports provided: CardListComponent */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -635,7 +648,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "CardListComponent", function() { return CardListComponent; });
 /* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
-/* harmony import */ var src_app_card_service__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! src/app/card.service */ "./src/app/card.service.ts");
+/* harmony import */ var src_app_services_card_service__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! src/app/services/card.service */ "./src/app/services/card.service.ts");
 
 
 
@@ -662,25 +675,239 @@ let CardListComponent = class CardListComponent {
     }
 };
 CardListComponent.ctorParameters = () => [
-    { type: src_app_card_service__WEBPACK_IMPORTED_MODULE_2__["CardService"] }
+    { type: src_app_services_card_service__WEBPACK_IMPORTED_MODULE_2__["CardService"] }
 ];
 CardListComponent = Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"])([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: 'app-card-list',
-        template: Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"])(__webpack_require__(/*! raw-loader!./card-list.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/card-list/card-list.component.html")).default,
-        styles: [Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"])(__webpack_require__(/*! ./card-list.component.css */ "./src/app/card-list/card-list.component.css")).default]
+        template: Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"])(__webpack_require__(/*! raw-loader!./card-list.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/components/card-list/card-list.component.html")).default,
+        styles: [Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"])(__webpack_require__(/*! ./card-list.component.css */ "./src/app/components/card-list/card-list.component.css")).default]
     }),
-    Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"])("design:paramtypes", [src_app_card_service__WEBPACK_IMPORTED_MODULE_2__["CardService"]])
+    Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"])("design:paramtypes", [src_app_services_card_service__WEBPACK_IMPORTED_MODULE_2__["CardService"]])
 ], CardListComponent);
 
 
 
 /***/ }),
 
-/***/ "./src/app/card.service.ts":
-/*!*********************************!*\
-  !*** ./src/app/card.service.ts ***!
-  \*********************************/
+/***/ "./src/app/components/card/card.component.css":
+/*!****************************************************!*\
+  !*** ./src/app/components/card/card.component.css ***!
+  \****************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = (".card-image {\r\n    border: 0px;\r\n    border-style: solid;\r\n    border-color: #fff;\r\n  }\r\n  \r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9jYXJkL2NhcmQuY29tcG9uZW50LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtJQUNJLFdBQVc7SUFDWCxtQkFBbUI7SUFDbkIsa0JBQWtCO0VBQ3BCIiwiZmlsZSI6InNyYy9hcHAvY29tcG9uZW50cy9jYXJkL2NhcmQuY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbIi5jYXJkLWltYWdlIHtcclxuICAgIGJvcmRlcjogMHB4O1xyXG4gICAgYm9yZGVyLXN0eWxlOiBzb2xpZDtcclxuICAgIGJvcmRlci1jb2xvcjogI2ZmZjtcclxuICB9XHJcbiAgIl19 */");
+
+/***/ }),
+
+/***/ "./src/app/components/card/card.component.ts":
+/*!***************************************************!*\
+  !*** ./src/app/components/card/card.component.ts ***!
+  \***************************************************/
+/*! exports provided: CardComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "CardComponent", function() { return CardComponent; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
+
+
+let CardComponent = class CardComponent {
+    constructor() { }
+    ngOnInit() {
+    }
+};
+Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"])([
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"])(),
+    Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"])("design:type", String)
+], CardComponent.prototype, "image", void 0);
+Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"])([
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"])(),
+    Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"])("design:type", String)
+], CardComponent.prototype, "title", void 0);
+Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"])([
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"])(),
+    Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"])("design:type", String)
+], CardComponent.prototype, "description", void 0);
+CardComponent = Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"])([
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+        selector: 'app-card',
+        template: Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"])(__webpack_require__(/*! raw-loader!./card.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/components/card/card.component.html")).default,
+        styles: [Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"])(__webpack_require__(/*! ./card.component.css */ "./src/app/components/card/card.component.css")).default]
+    }),
+    Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"])("design:paramtypes", [])
+], CardComponent);
+
+
+
+/***/ }),
+
+/***/ "./src/app/components/footer/footer.component.css":
+/*!********************************************************!*\
+  !*** ./src/app/components/footer/footer.component.css ***!
+  \********************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = (".footer {\r\n\tbackground-color: rgba(0, 0, 0, 0.5);\r\n\tpadding: 10px 10px;\r\n}\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9mb290ZXIvZm9vdGVyLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7Q0FDQyxvQ0FBb0M7Q0FDcEMsa0JBQWtCO0FBQ25CIiwiZmlsZSI6InNyYy9hcHAvY29tcG9uZW50cy9mb290ZXIvZm9vdGVyLmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyIuZm9vdGVyIHtcclxuXHRiYWNrZ3JvdW5kLWNvbG9yOiByZ2JhKDAsIDAsIDAsIDAuNSk7XHJcblx0cGFkZGluZzogMTBweCAxMHB4O1xyXG59Il19 */");
+
+/***/ }),
+
+/***/ "./src/app/components/footer/footer.component.ts":
+/*!*******************************************************!*\
+  !*** ./src/app/components/footer/footer.component.ts ***!
+  \*******************************************************/
+/*! exports provided: FooterComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "FooterComponent", function() { return FooterComponent; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/common */ "./node_modules/@angular/common/__ivy_ngcc__/fesm2015/common.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
+
+
+
+let FooterComponent = class FooterComponent {
+    constructor(datePipe) {
+        this.datePipe = datePipe;
+        this.currentYear = this.datePipe.transform(new Date(), 'yyyy');
+    }
+    ngOnInit() {
+    }
+};
+FooterComponent.ctorParameters = () => [
+    { type: _angular_common__WEBPACK_IMPORTED_MODULE_1__["DatePipe"] }
+];
+FooterComponent = Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"])([
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_2__["Component"])({
+        selector: 'app-footer',
+        template: Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"])(__webpack_require__(/*! raw-loader!./footer.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/components/footer/footer.component.html")).default,
+        styles: [Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"])(__webpack_require__(/*! ./footer.component.css */ "./src/app/components/footer/footer.component.css")).default]
+    }),
+    Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"])("design:paramtypes", [_angular_common__WEBPACK_IMPORTED_MODULE_1__["DatePipe"]])
+], FooterComponent);
+
+
+
+/***/ }),
+
+/***/ "./src/app/components/header/header.component.css":
+/*!********************************************************!*\
+  !*** ./src/app/components/header/header.component.css ***!
+  \********************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2NvbXBvbmVudHMvaGVhZGVyL2hlYWRlci5jb21wb25lbnQuY3NzIn0= */");
+
+/***/ }),
+
+/***/ "./src/app/components/header/header.component.ts":
+/*!*******************************************************!*\
+  !*** ./src/app/components/header/header.component.ts ***!
+  \*******************************************************/
+/*! exports provided: HeaderComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "HeaderComponent", function() { return HeaderComponent; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
+
+
+let HeaderComponent = class HeaderComponent {
+    constructor() { }
+    ngOnInit() {
+    }
+};
+Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"])([
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"])(),
+    Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"])("design:type", String)
+], HeaderComponent.prototype, "companyName", void 0);
+HeaderComponent = Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"])([
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+        selector: 'app-header',
+        template: Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"])(__webpack_require__(/*! raw-loader!./header.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/components/header/header.component.html")).default,
+        styles: [Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"])(__webpack_require__(/*! ./header.component.css */ "./src/app/components/header/header.component.css")).default]
+    }),
+    Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"])("design:paramtypes", [])
+], HeaderComponent);
+
+
+
+/***/ }),
+
+/***/ "./src/app/constants/cardsInfo.ts":
+/*!****************************************!*\
+  !*** ./src/app/constants/cardsInfo.ts ***!
+  \****************************************/
+/*! exports provided: CARDS_INFO */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "CARDS_INFO", function() { return CARDS_INFO; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+
+const CARDS_INFO = [
+    {
+        id: '1',
+        image: 'coffee_tree.jpg',
+        title: 'Coffee',
+        description: 'Coffee trees produce berries, called coffee cherries, that turn bright red when they are ripe and ready to pick. Manacla is know for growing coffee.',
+        uploadDate: null
+    }, {
+        id: '2',
+        image: 'OldHouse.jpg',
+        title: 'Old House in Manacla',
+        description: 'This old house displays some of the typical colors of houses in Manacla.',
+        uploadDate: null
+    }, {
+        id: '3',
+        image: 'nature.jpg',
+        title: 'Nature',
+        description: 'Nature at it\'s fullest',
+        uploadDate: null
+    }, {
+        id: '4',
+        image: 't.jpg',
+        title: 'Tuna (Nopal)',
+        description: '',
+        uploadDate: null
+    }, {
+        id: '5',
+        image: 'flower.jpg',
+        title: 'Flower',
+        description: '',
+        uploadDate: null
+    }, {
+        id: '6',
+        image: 'rio.jpg',
+        title: 'River',
+        description: '',
+        uploadDate: null
+    }
+];
+
+
+/***/ }),
+
+/***/ "./src/app/services/card.service.ts":
+/*!******************************************!*\
+  !*** ./src/app/services/card.service.ts ***!
+  \******************************************/
 /*! exports provided: CardService */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -720,165 +947,6 @@ CardService = Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"])([
     }),
     Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"])("design:paramtypes", [_angular_fire_firestore__WEBPACK_IMPORTED_MODULE_2__["AngularFirestore"]])
 ], CardService);
-
-
-
-/***/ }),
-
-/***/ "./src/app/card/card.component.css":
-/*!*****************************************!*\
-  !*** ./src/app/card/card.component.css ***!
-  \*****************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = (".card-image {\r\n    border: 0px;\r\n    border-style: solid;\r\n    border-color: #fff;\r\n  }\r\n  \r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY2FyZC9jYXJkLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7SUFDSSxXQUFXO0lBQ1gsbUJBQW1CO0lBQ25CLGtCQUFrQjtFQUNwQiIsImZpbGUiOiJzcmMvYXBwL2NhcmQvY2FyZC5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLmNhcmQtaW1hZ2Uge1xyXG4gICAgYm9yZGVyOiAwcHg7XHJcbiAgICBib3JkZXItc3R5bGU6IHNvbGlkO1xyXG4gICAgYm9yZGVyLWNvbG9yOiAjZmZmO1xyXG4gIH1cclxuICAiXX0= */");
-
-/***/ }),
-
-/***/ "./src/app/card/card.component.ts":
-/*!****************************************!*\
-  !*** ./src/app/card/card.component.ts ***!
-  \****************************************/
-/*! exports provided: CardComponent */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "CardComponent", function() { return CardComponent; });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
-
-
-let CardComponent = class CardComponent {
-    constructor() { }
-    ngOnInit() {
-    }
-};
-Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"])([
-    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"])(),
-    Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"])("design:type", String)
-], CardComponent.prototype, "image", void 0);
-Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"])([
-    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"])(),
-    Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"])("design:type", String)
-], CardComponent.prototype, "title", void 0);
-Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"])([
-    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"])(),
-    Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"])("design:type", String)
-], CardComponent.prototype, "description", void 0);
-CardComponent = Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"])([
-    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
-        selector: 'app-card',
-        template: Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"])(__webpack_require__(/*! raw-loader!./card.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/card/card.component.html")).default,
-        styles: [Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"])(__webpack_require__(/*! ./card.component.css */ "./src/app/card/card.component.css")).default]
-    }),
-    Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"])("design:paramtypes", [])
-], CardComponent);
-
-
-
-/***/ }),
-
-/***/ "./src/app/footer/footer.component.css":
-/*!*********************************************!*\
-  !*** ./src/app/footer/footer.component.css ***!
-  \*********************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = (".footer {\r\n\tbackground-color: rgba(0, 0, 0, 0.5);\r\n\tpadding: 10px 10px;\r\n}\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvZm9vdGVyL2Zvb3Rlci5jb21wb25lbnQuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0NBQ0Msb0NBQW9DO0NBQ3BDLGtCQUFrQjtBQUNuQiIsImZpbGUiOiJzcmMvYXBwL2Zvb3Rlci9mb290ZXIuY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbIi5mb290ZXIge1xyXG5cdGJhY2tncm91bmQtY29sb3I6IHJnYmEoMCwgMCwgMCwgMC41KTtcclxuXHRwYWRkaW5nOiAxMHB4IDEwcHg7XHJcbn0iXX0= */");
-
-/***/ }),
-
-/***/ "./src/app/footer/footer.component.ts":
-/*!********************************************!*\
-  !*** ./src/app/footer/footer.component.ts ***!
-  \********************************************/
-/*! exports provided: FooterComponent */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "FooterComponent", function() { return FooterComponent; });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
-/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/common */ "./node_modules/@angular/common/__ivy_ngcc__/fesm2015/common.js");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
-
-
-
-let FooterComponent = class FooterComponent {
-    constructor(datePipe) {
-        this.datePipe = datePipe;
-        this.currentYear = this.datePipe.transform(new Date(), 'yyyy');
-    }
-    ngOnInit() {
-    }
-};
-FooterComponent.ctorParameters = () => [
-    { type: _angular_common__WEBPACK_IMPORTED_MODULE_1__["DatePipe"] }
-];
-FooterComponent = Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"])([
-    Object(_angular_core__WEBPACK_IMPORTED_MODULE_2__["Component"])({
-        selector: 'app-footer',
-        template: Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"])(__webpack_require__(/*! raw-loader!./footer.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/footer/footer.component.html")).default,
-        styles: [Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"])(__webpack_require__(/*! ./footer.component.css */ "./src/app/footer/footer.component.css")).default]
-    }),
-    Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"])("design:paramtypes", [_angular_common__WEBPACK_IMPORTED_MODULE_1__["DatePipe"]])
-], FooterComponent);
-
-
-
-/***/ }),
-
-/***/ "./src/app/header/header.component.css":
-/*!*********************************************!*\
-  !*** ./src/app/header/header.component.css ***!
-  \*********************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2hlYWRlci9oZWFkZXIuY29tcG9uZW50LmNzcyJ9 */");
-
-/***/ }),
-
-/***/ "./src/app/header/header.component.ts":
-/*!********************************************!*\
-  !*** ./src/app/header/header.component.ts ***!
-  \********************************************/
-/*! exports provided: HeaderComponent */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "HeaderComponent", function() { return HeaderComponent; });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
-
-
-let HeaderComponent = class HeaderComponent {
-    constructor() { }
-    ngOnInit() {
-    }
-};
-Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"])([
-    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"])(),
-    Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"])("design:type", String)
-], HeaderComponent.prototype, "companyName", void 0);
-HeaderComponent = Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"])([
-    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
-        selector: 'app-header',
-        template: Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"])(__webpack_require__(/*! raw-loader!./header.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/header/header.component.html")).default,
-        styles: [Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"])(__webpack_require__(/*! ./header.component.css */ "./src/app/header/header.component.css")).default]
-    }),
-    Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"])("design:paramtypes", [])
-], HeaderComponent);
 
 
 

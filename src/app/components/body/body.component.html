@@ -1,0 +1,26 @@
+<div class="columns features">
+  <div class="container">
+    <div class="notification-container">
+      <div class="logo-img">
+        <img onmousedown="return false;" src="assets/img/Manacla-no-bg.png" width="130">
+      </div>
+      <div class="notification information">
+        <div class="info">
+          <h1>Fiestas 2020</h1>
+          <p>
+            Julio 30 & 31
+            <br />y
+            <br />Agosto 1 & 2
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="columns features" *ngFor="let cardArray of cards">
+  <div class="column is-4" *ngFor="let card of cardArray">
+    <app-card image="assets/images/{{card.image}}" title="{{card.title}}"
+      description="{{card.description}}"></app-card>
+  </div>
+</div>
