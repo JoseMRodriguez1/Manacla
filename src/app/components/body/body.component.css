@@ -1,11 +1,11 @@
 h1 {
-    color: #000;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 250%;
-  }
+  color: #000;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 250%;
+}
 
 h2 {
-    text-align: center;
+  text-align: center;
 }
 
 .notification-container {
@@ -31,8 +31,14 @@ h2 {
   flex-grow: 3;
 }
 
+@media screen and (max-width: 500px) {
+  .notification-container .information {
+    font-size: 80%;
+  }
+}
+
 .contact {
-	height: 100%;
+  height: 100%;
 }
 
 .card-image {
