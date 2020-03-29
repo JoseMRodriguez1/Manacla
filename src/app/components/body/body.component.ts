@@ -1,6 +1,7 @@
 import { Component, Input, OnInit } from '@angular/core';
 import { CARDS_INFO } from 'src/app/constants/cardsInfo';
 import { Card } from 'src/app/domain/card.model';
+import { DataService } from 'src/app/services/dataService/data.service';
 
 @Component({
   selector: 'app-body',
@@ -15,19 +16,10 @@ export class BodyComponent implements OnInit {
   cardsInfo: (Card)[] = CARDS_INFO;
   cards: (any)[];
 
-  constructor() { }
+  constructor(private dataService: DataService) { }
 
   ngOnInit() {
-    this.cards = this.get2DArray(this.cardsInfo, 3);
-  }
-
-  get2DArray = (list: (Card)[], split: number) => {
-    const result = []
-    const input = list.slice(0)
-    while (input[0]) {
-      result.push(input.splice(0, split))
-    }
-    return result
+    this.cards = this.dataService.get2DArray(this.cardsInfo, 3);
   }
 
 }

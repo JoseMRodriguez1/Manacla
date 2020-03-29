@@ -13,6 +13,7 @@ import { CardComponent } from './components/card/card.component';
 
 import { AppRoutingModule, routingComponents } from './app-routing.module';
 import { AboutComponent } from './components/about/about.component';
+import { GalleryComponent } from './components/gallery/gallery.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { AboutComponent } from './components/about/about.component';
     FooterComponent,
     CardComponent,
     routingComponents,
-    AboutComponent
+    AboutComponent,
+    GalleryComponent
   ],
   imports: [
     BrowserModule,

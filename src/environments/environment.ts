@@ -15,6 +15,11 @@ export const environment = {
   manacla: {
     id1: '8461d42180edcc0',
     id2: 'bf0e2f8a12d65da49a87bb578911a73ca184035a'
+  },
+  parse: {
+    APP_ID: '5hM8mK7wXS36AyveB4RVT2oyJ0U2XKOBOTkFcRor',
+    JS_KEY: 'RVFVfKHzaphOMaf5mihwwkTeT4aYuiC0leYOajgY',
+    serverURL: 'https://parseapi.back4app.com'
   }
 };
 

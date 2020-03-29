@@ -1,6 +1,6 @@
 <!-- header -->
 <div class="hero-head">
-  <nav class="navbar">
+  <nav class="navbar" role="navigation" aria-label="main navigation">
     <div class="container">
       <!-- logo -->
       <div class="navbar-brand">
@@ -9,7 +9,7 @@
           {{ companyName }}
         </a>
 
-        <a class="navbar-burger burger" data-target="navbarMain">
+        <a (click)="toggleNavbar()" role="button" #navBurger class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarMain">
           <span aria-hidden="true"></span>
           <span aria-hidden="true"></span>
           <span aria-hidden="true"></span>
@@ -17,7 +17,7 @@
       </div>
 
       <!-- right menu -->
-      <div id="navbarMain" class="navbar-menu">
+      <div id="navbarMain" class="navbar-menu" #navMenu>
         <div class="navbar-end">
           <span class="navbar-item">
             <a class="button is-white is-outlined" routerLink="">
@@ -25,6 +25,15 @@
                 <i class="fa fa-home"></i>
               </span>
               <span>Home</span>
+            </a>
+          </span>
+
+          <span class="navbar-item">
+            <a class="button is-white is-outlined" routerLink="/gallery">
+              <span class="icon">
+                <i class="fa fa-picture-o"></i>
+              </span>
+              <span>Gallery</span>
             </a>
           </span>
 

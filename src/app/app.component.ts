@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { DataService } from './services/dataService/data.service';
 
 @Component({
   selector: 'app-root',
@@ -8,4 +9,8 @@ import { Component } from '@angular/core';
 export class AppComponent {
   companyName = 'Manacla';
   title = 'Manacla';
+
+  constructor(private dataService: DataService) {
+    dataService.createObject();
+  }
 }
