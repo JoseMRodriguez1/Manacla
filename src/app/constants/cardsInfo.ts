@@ -4,20 +4,20 @@ export const CARDS_INFO: (Card)[] = [
     {
         id: '1',
         image: 'coffee_tree.jpg',
-        title: 'Coffee',
-        description: 'Coffee trees produce berries, called coffee cherries, that turn bright red when they are ripe and ready to pick. Manacla is know for growing coffee.',
+        title: 'Café',
+        description: 'La comunidad de Manacla siembra café para uso personal y para vender.',
         uploadDate: null
     }, {
         id: '2',
         image: 'OldHouse.jpg',
-        title: 'Old House in Manacla',
-        description: 'This old house displays some of the typical colors of houses in Manacla.',
+        title: 'Casa antigua en Manacla',
+        description: 'Esta casa antigua muestra algunos de los colores típicos de las casas de Manacla.',
         uploadDate: null
     }, {
         id: '3',
         image: 'nature.jpg',
-        title: 'Nature',
-        description: 'Nature at it\'s fullest',
+        title: 'Naturaleza',
+        description: 'Naturaleza en su máxima expresión. Manacla es rica en toda la naturaleza que la rodea.',
         uploadDate: null
     }, {
         id: '4',
