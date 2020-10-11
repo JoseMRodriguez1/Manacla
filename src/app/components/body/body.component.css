@@ -23,6 +23,7 @@ h2 {
 .notification-container .logo-img {
   text-align: center;
   flex-grow: 1;
+  margin: auto;
 }
 
 .notification-container .information {
