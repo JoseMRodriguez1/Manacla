@@ -22,7 +22,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<p class=\"center\">\n  Manacla is a beautiful small town in San Jose de las Matas, Dominican Republic.\n  <br />\n  More information will be added soon.\n</p>\n");
+/* harmony default export */ __webpack_exports__["default"] = ("<p class=\"center\">\n  Manacla es un hermoso campo en San José de las Matas, República Dominicana.\n  <br />\n  Más información será añadida pronto.  Por favor contáctenos si tiene información, videos o fotos para agregar.\n  <br />\n  <a href=\"https://www.instagram.com/manacla_rd\" target=\"_blank\" class=\"fa fa-instagram\"> Instagram</a>\n  <br />\n  <a href=\"https://www.youtube.com/channel/UCw4_c8rg_pB02jkcV2txP7g\" target=\"_blank\" class=\"fa fa-youtube\"> YouTube</a>\n</p>\n\n<!-- Using font awesome icons -->\n<!-- <a href=\"#\" class=\"fa fa-facebook\"></a>\n<a href=\"#\" class=\"fa fa-twitter\"></a>\n<a href=\"#\" class=\"fa fa-google\"></a>\n<a href=\"#\" class=\"fa fa-linkedin\"></a>\n<a href=\"#\" class=\"fa fa-youtube\"></a>\n<a href=\"#\" class=\"fa fa-instagram\"></a>\n<a href=\"#\" class=\"fa fa-whatsapp\"></a>\n<a href=\"#\" class=\"fa fa-pinterest\"></a>\n<a href=\"#\" class=\"fa fa-snapchat-ghost\"></a>\n<a href=\"#\" class=\"fa fa-skype\"></a>\n<a href=\"#\" class=\"fa fa-github\"></a>\n<a href=\"#\" class=\"fa fa-dribbble\"></a>\n<a href=\"#\" class=\"fa fa-vimeo\"></a>\n<a href=\"#\" class=\"fa fa-foursquare\"></a>\n<a href=\"#\" class=\"fa fa-stumbleupon\"></a>\n<a href=\"#\" class=\"fa fa-flickr\"></a>\n<a href=\"#\" class=\"fa fa-yahoo\"></a>\n<a href=\"#\" class=\"fa fa-reddit\"></a>\n<a href=\"#\" class=\"fa fa-rss\"></a> -->\n");
 
 /***/ }),
 
@@ -35,7 +35,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"columns features\">\r\n  <div class=\"container\">\r\n    <div class=\"notification-container\">\r\n      <div class=\"logo-img\">\r\n        <img onmousedown=\"return false;\" src=\"assets/img/Manacla-no-bg.png\" width=\"190\">\r\n      </div>\r\n      <div class=\"notification information\">\r\n        <div class=\"info\">\r\n          <h1>Fiestas 2020</h1>\r\n            <h1 style=\"color: red;\">Cancelada</h1>\r\n        </div>\r\n      </div>\r\n    </div>\r\n  </div>\r\n</div>\r\n<br />\r\n<div class=\"columns features\">\r\n  <div class=\"container\">\r\n    <div class=\"content\">\r\n      <p>\r\n        Manacla es una pequeña comunidad rural en la region de San Jose de las Matas (Sajoma) de la\r\n        Republica Dominicana. Esta comunidad vive por su gran parte de la tierra en el desarrollo de\r\n        agricultura y ganadería.\r\n      </p>\r\n      <br />\r\n      Característica de esta bella region incluye:\r\n      <ul>\r\n        <li>Gente alegre</li>\r\n        <li>Naturaleza verde y floreciente</li>\r\n        <li>Rios con aguas limpia, fria y muchas areas de diversión</li>\r\n        <li>Tranquilidad total sin los sonidos urbanos</li>\r\n        <br />\r\n        <li>Agricultura</li>\r\n        <ul>\r\n          <li>Aguacate</li>\r\n          <li>Banana</li>\r\n          <li>Café</li>\r\n          <li>Limones</li>\r\n          <li>Mango</li>\r\n          <li>Naranjas</li>\r\n          <li>Peras</li>\r\n          <li>Piñas</li>\r\n          <li>Plátanos</li>\r\n          <li>Yautia</li>\r\n          <li>Yuca</li>\r\n        </ul>\r\n        <li>Cría de animales / ganadería</li>\r\n        <ul>\r\n          <li>Cerdos</li>\r\n          <li>Chivos</li>\r\n          <li>Gallinas</li>\r\n          <li>Guineas</li>\r\n          <li>Pollos</li>\r\n          <li>Vacas</li>\r\n        </ul>\r\n      </ul>\r\n    </div>\r\n  </div>\r\n</div>\r\n");
+/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"columns features\">\r\n  <div class=\"container\">\r\n    <div class=\"notification-container\">\r\n      <div class=\"logo-img\">\r\n        <img onmousedown=\"return false;\" src=\"assets/img/Manacla-no-bg.png\" width=\"190\">\r\n      </div>\r\n      <div class=\"notification information\">\r\n        <div class=\"info\">\r\n          <h1>Feliz Navidad y Próspero Año Nuevo</h1>\r\n        </div>\r\n      </div>\r\n    </div>\r\n  </div>\r\n</div>\r\n<br />\r\n<div class=\"columns features\">\r\n  <div class=\"container\">\r\n    <div class=\"content\">\r\n      <p>\r\n        Manacla es una pequeña comunidad rural en la region de San Jose de las Matas (Sajoma) de la\r\n        Republica Dominicana. Esta comunidad vive por su gran parte de la tierra en el desarrollo de\r\n        agricultura y ganadería.\r\n      </p>\r\n      <br />\r\n      Característica de esta bella region incluye:\r\n      <ul>\r\n        <li>Gente alegre</li>\r\n        <li>Naturaleza verde y floreciente</li>\r\n        <li>Rios con aguas limpia, fria y muchas areas de diversión</li>\r\n        <li>Tranquilidad total sin los sonidos urbanos</li>\r\n        <br />\r\n        <li>Agricultura</li>\r\n        <ul>\r\n          <li>Aguacate</li>\r\n          <li>Banana</li>\r\n          <li>Café</li>\r\n          <li>Limones</li>\r\n          <li>Mango</li>\r\n          <li>Naranjas</li>\r\n          <li>Peras</li>\r\n          <li>Piñas</li>\r\n          <li>Plátanos</li>\r\n          <li>Yautia</li>\r\n          <li>Yuca</li>\r\n        </ul>\r\n        <li>Cría de animales / ganadería</li>\r\n        <ul>\r\n          <li>Cerdos</li>\r\n          <li>Chivos</li>\r\n          <li>Gallinas</li>\r\n          <li>Guineas</li>\r\n          <li>Pollos</li>\r\n          <li>Vacas</li>\r\n        </ul>\r\n      </ul>\r\n    </div>\r\n  </div>\r\n</div>\r\n");
 
 /***/ }),
 
@@ -61,7 +61,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"card is-shady\">\n  <div class=\"card-image\">\n    <figure class=\"image is-4by3\">\n      <img src=\"{{ image }}\" alt=\"{{ title }}\" class=\"modal-button\"\n        data-target=\"modal-image2\">\n    </figure>\n  </div>\n  <div class=\"card-content\">\n    <div class=\"content\">\n      <h4>{{ title }}</h4>\n      <p>{{ description }}</p>\n    </div>\n  </div>\n</div>\n");
+/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"card is-shady\">\n  <div class=\"card-image\">\n    <figure class=\"image is-4by3\" *ngIf=\"card.type === 'image'\">\n      <img src=\"assets/images/{{ card.image }}\" alt=\"{{ card.title }}\" class=\"modal-button\"\n        data-target=\"modal-image2\">\n    </figure>\n    <figure *ngIf=\"card.type === 'video'\" class=\"image is-16by9\">\n      <iframe class=\"has-ratio\"\n      width=\"560\" height=\"315\" \n      [src]=\"url\" \n      frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" \n      allowfullscreen>\n    </iframe>\n    </figure>\n  </div>\n  <div class=\"card-content\">\n    <div class=\"content\">\n      <h4>{{ card.title }}</h4>\n      <p>{{ card.description }}</p>\n    </div>\n  </div>\n</div>\n");
 
 /***/ }),
 
@@ -87,7 +87,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"columns features\" *ngFor=\"let cardArray of cards\">\n    <div class=\"column is-4\" *ngFor=\"let card of cardArray\">\n        <app-card image=\"assets/images/{{card.image}}\" title=\"{{card.title}}\" description=\"{{card.description}}\">\n        </app-card>\n    </div>\n</div>\n");
+/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"columns features\" *ngFor=\"let cardArray of cards\">\n    <div class=\"column is-4\" *ngFor=\"let card of cardArray\">\n        <app-card [card]=\"card\">\n        </app-card>\n    </div>\n</div>\n");
 
 /***/ }),
 
@@ -100,7 +100,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<!-- header -->\n<div class=\"hero-head\">\n  <nav class=\"navbar\" role=\"navigation\" aria-label=\"main navigation\">\n    <div class=\"container\">\n      <!-- logo -->\n      <div class=\"navbar-brand\">\n        <a class=\"navbar-item\" routerLink=\"\">\n          <img onmousedown=\"return false;\" src=\"assets/img/Manacla-logo.png\" alt=\"Logo\">&nbsp;\n          {{ companyName }}\n        </a>\n\n        <a (click)=\"toggleNavbar()\" role=\"button\" #navBurger class=\"navbar-burger burger\" aria-label=\"menu\" aria-expanded=\"false\" data-target=\"navbarMain\">\n          <span aria-hidden=\"true\"></span>\n          <span aria-hidden=\"true\"></span>\n          <span aria-hidden=\"true\"></span>\n        </a>\n      </div>\n\n      <!-- right menu -->\n      <div id=\"navbarMain\" class=\"navbar-menu\" #navMenu>\n        <div class=\"navbar-end\">\n          <span class=\"navbar-item\">\n            <a class=\"button is-white is-outlined\" routerLink=\"\">\n              <span class=\"icon\">\n                <i class=\"fa fa-home\"></i>\n              </span>\n              <span>Home</span>\n            </a>\n          </span>\n\n          <span class=\"navbar-item\">\n            <a class=\"button is-white is-outlined\" routerLink=\"/gallery\">\n              <span class=\"icon\">\n                <i class=\"fa fa-picture-o\"></i>\n              </span>\n              <span>Gallery</span>\n            </a>\n          </span>\n\n          <span class=\"navbar-item\">\n            <a class=\"button is-white is-outlined\" routerLink=\"/about\">\n              <span class=\"icon\">\n                <i class=\"fa fa-info-circle\"></i>\n              </span>\n              <span>About Us</span>\n            </a>\n          </span>\n\n          <span class=\"navbar-item\">\n            <a class=\"button is-white is-outlined\" href=\"https://goo.gl/forms/tFJOLC7NTxEZYNjp1\" target=\"_blank\">\n              <span class=\"icon\">\n                <i class=\"fa fa-envelope\"></i>\n              </span>\n              <span>Contact Us</span>\n            </a>\n          </span>\n        </div>\n      </div>\n    </div>\n  </nav>\n</div>\n");
+/* harmony default export */ __webpack_exports__["default"] = ("<!-- header -->\n<div class=\"hero-head\">\n  <nav class=\"navbar\" role=\"navigation\" aria-label=\"main navigation\">\n    <div class=\"container\">\n      <!-- logo -->\n      <div class=\"navbar-brand\">\n        <a class=\"navbar-item\" routerLink=\"\">\n          <img onmousedown=\"return false;\" src=\"assets/img/Manacla-logo.png\" alt=\"Logo\">&nbsp;\n          {{ companyName }}\n        </a>\n\n        <a (click)=\"toggleNavbar()\" role=\"button\" #navBurger class=\"navbar-burger burger\" aria-label=\"menu\" aria-expanded=\"false\" data-target=\"navbarMain\">\n          <span aria-hidden=\"true\"></span>\n          <span aria-hidden=\"true\"></span>\n          <span aria-hidden=\"true\"></span>\n        </a>\n      </div>\n\n      <!-- right menu -->\n      <div id=\"navbarMain\" class=\"navbar-menu\" #navMenu>\n        <div class=\"navbar-end\">\n          <span class=\"navbar-item\">\n            <a class=\"button is-white is-outlined\" routerLink=\"\">\n              <span class=\"icon\">\n                <i class=\"fa fa-home\"></i>\n              </span>\n              <span>Inicio</span>\n            </a>\n          </span>\n\n          <span class=\"navbar-item\">\n            <a class=\"button is-white is-outlined\" routerLink=\"/gallery\">\n              <span class=\"icon\">\n                <i class=\"fa fa-picture-o\"></i>\n              </span>\n              <span>Galería / Videos</span>\n            </a>\n          </span>\n\n          <span class=\"navbar-item\">\n            <a class=\"button is-white is-outlined\" routerLink=\"/about\">\n              <span class=\"icon\">\n                <i class=\"fa fa-info-circle\"></i>\n              </span>\n              <span>Sobre Nosotros</span>\n            </a>\n          </span>\n\n          <span class=\"navbar-item\">\n            <a class=\"button is-white is-outlined\" href=\"https://goo.gl/forms/tFJOLC7NTxEZYNjp1\" target=\"_blank\">\n              <span class=\"icon\">\n                <i class=\"fa fa-envelope\"></i>\n              </span>\n              <span>Contacto</span>\n            </a>\n          </span>\n        </div>\n      </div>\n    </div>\n  </nav>\n</div>\n");
 
 /***/ }),
 
@@ -1265,7 +1265,7 @@ AppModule = Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"])([
             _angular_platform_browser__WEBPACK_IMPORTED_MODULE_1__["BrowserModule"],
             _app_routing_module__WEBPACK_IMPORTED_MODULE_11__["AppRoutingModule"],
             _angular_fire__WEBPACK_IMPORTED_MODULE_4__["AngularFireModule"].initializeApp(_environments_environment__WEBPACK_IMPORTED_MODULE_6__["environment"].firebase),
-            _angular_fire_firestore__WEBPACK_IMPORTED_MODULE_5__["AngularFirestoreModule"],
+            _angular_fire_firestore__WEBPACK_IMPORTED_MODULE_5__["AngularFirestoreModule"]
         ],
         providers: [_angular_common__WEBPACK_IMPORTED_MODULE_2__["DatePipe"]],
         bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_7__["AppComponent"]]
@@ -1461,7 +1461,7 @@ CardListComponent = Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"])([
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = (".card-image {\r\n    border: 0px;\r\n    border-style: solid;\r\n    border-color: #fff;\r\n  }\r\n  \r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9jYXJkL2NhcmQuY29tcG9uZW50LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtJQUNJLFdBQVc7SUFDWCxtQkFBbUI7SUFDbkIsa0JBQWtCO0VBQ3BCIiwiZmlsZSI6InNyYy9hcHAvY29tcG9uZW50cy9jYXJkL2NhcmQuY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbIi5jYXJkLWltYWdlIHtcclxuICAgIGJvcmRlcjogMHB4O1xyXG4gICAgYm9yZGVyLXN0eWxlOiBzb2xpZDtcclxuICAgIGJvcmRlci1jb2xvcjogI2ZmZjtcclxuICB9XHJcbiAgIl19 */");
+/* harmony default export */ __webpack_exports__["default"] = (".card-image {\r\n    border: 0px;\r\n    border-style: solid;\r\n    border-color: #fff;\r\n  }\r\n  \r\n  .embed-responsive {\r\n    position: relative;\r\n    display: block;\r\n    width: 100%;\r\n    padding: 0;\r\n    overflow: hidden;\r\n}\r\n\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9jYXJkL2NhcmQuY29tcG9uZW50LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtJQUNJLFdBQVc7SUFDWCxtQkFBbUI7SUFDbkIsa0JBQWtCO0VBQ3BCOztFQUVBO0lBQ0Usa0JBQWtCO0lBQ2xCLGNBQWM7SUFDZCxXQUFXO0lBQ1gsVUFBVTtJQUNWLGdCQUFnQjtBQUNwQiIsImZpbGUiOiJzcmMvYXBwL2NvbXBvbmVudHMvY2FyZC9jYXJkLmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyIuY2FyZC1pbWFnZSB7XHJcbiAgICBib3JkZXI6IDBweDtcclxuICAgIGJvcmRlci1zdHlsZTogc29saWQ7XHJcbiAgICBib3JkZXItY29sb3I6ICNmZmY7XHJcbiAgfVxyXG4gIFxyXG4gIC5lbWJlZC1yZXNwb25zaXZlIHtcclxuICAgIHBvc2l0aW9uOiByZWxhdGl2ZTtcclxuICAgIGRpc3BsYXk6IGJsb2NrO1xyXG4gICAgd2lkdGg6IDEwMCU7XHJcbiAgICBwYWRkaW5nOiAwO1xyXG4gICAgb3ZlcmZsb3c6IGhpZGRlbjtcclxufVxyXG4iXX0= */");
 
 /***/ }),
 
@@ -1477,32 +1477,36 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "CardComponent", function() { return CardComponent; });
 /* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
+/* harmony import */ var _angular_platform_browser__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/platform-browser */ "./node_modules/@angular/platform-browser/__ivy_ngcc__/fesm2015/platform-browser.js");
+/* harmony import */ var src_app_domain_card_model__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! src/app/domain/card.model */ "./src/app/domain/card.model.ts");
+
+
 
 
 let CardComponent = class CardComponent {
-    constructor() { }
+    constructor(sanitizer) {
+        this.sanitizer = sanitizer;
+    }
     ngOnInit() {
+        var _a;
+        const youTube = 'https://www.youtube.com/embed/' + ((_a = this.card) === null || _a === void 0 ? void 0 : _a.youTubeVideo);
+        this.url = this.sanitizer.bypassSecurityTrustResourceUrl(youTube);
     }
 };
+CardComponent.ctorParameters = () => [
+    { type: _angular_platform_browser__WEBPACK_IMPORTED_MODULE_2__["DomSanitizer"] }
+];
 Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"])([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"])(),
-    Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"])("design:type", String)
-], CardComponent.prototype, "image", void 0);
-Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"])([
-    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"])(),
-    Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"])("design:type", String)
-], CardComponent.prototype, "title", void 0);
-Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"])([
-    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"])(),
-    Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"])("design:type", String)
-], CardComponent.prototype, "description", void 0);
+    Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"])("design:type", src_app_domain_card_model__WEBPACK_IMPORTED_MODULE_3__["Card"])
+], CardComponent.prototype, "card", void 0);
 CardComponent = Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"])([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: 'app-card',
         template: Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"])(__webpack_require__(/*! raw-loader!./card.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/components/card/card.component.html")).default,
         styles: [Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"])(__webpack_require__(/*! ./card.component.css */ "./src/app/components/card/card.component.css")).default]
     }),
-    Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"])("design:paramtypes", [])
+    Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"])("design:paramtypes", [_angular_platform_browser__WEBPACK_IMPORTED_MODULE_2__["DomSanitizer"]])
 ], CardComponent);
 
 
@@ -1690,46 +1694,127 @@ HeaderComponent = Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"])([
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "CARDS_INFO", function() { return CARDS_INFO; });
 /* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _domain_card_model__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../domain/card.model */ "./src/app/domain/card.model.ts");
+
 
 const CARDS_INFO = [
     {
+        id: '7',
+        youTubeVideo: 'vmZjRkGnqKw',
+        title: 'Rafelito Polanco',
+        description: 'Rafelito Polanco en Manacla, San Jose de las Matas, Sajoma, Santiago, RD - Julio 27, 2018',
+        uploadDate: null,
+        type: _domain_card_model__WEBPACK_IMPORTED_MODULE_1__["CardType"].Video
+    }, {
+        id: '8',
+        youTubeVideo: 'esD50pW4qKM',
+        title: 'Fabia recordando cómo montar mulo',
+        description: 'Fabia montando mulo en Manacla',
+        uploadDate: null,
+        type: _domain_card_model__WEBPACK_IMPORTED_MODULE_1__["CardType"].Video
+    }, {
+        id: '9',
+        youTubeVideo: 'mN_3dMfu72E',
+        title: 'Fabia recordando cómo montar mulo',
+        description: 'Fabia bajando de un mulo con una silla en Manacla',
+        uploadDate: null,
+        type: _domain_card_model__WEBPACK_IMPORTED_MODULE_1__["CardType"].Video
+    }, {
+        id: '10',
+        youTubeVideo: '3SE4Na5FVlU',
+        title: 'Rafelito Polanco',
+        description: 'Rafelito Polanco en Manacla, San Jose de las Matas, Sajoma, Santiago, RD - Julio 27, 2018',
+        uploadDate: null,
+        type: _domain_card_model__WEBPACK_IMPORTED_MODULE_1__["CardType"].Video
+    }, {
+        id: '11',
+        youTubeVideo: 'D-jkNFbN78g',
+        title: 'Rafelito Polanco',
+        description: 'Rafelito Polanco en Manacla, San Jose de las Matas, Sajoma, Santiago, RD - Julio 27, 2018',
+        uploadDate: null,
+        type: _domain_card_model__WEBPACK_IMPORTED_MODULE_1__["CardType"].Video
+    }, {
+        id: '12',
+        youTubeVideo: 'HgwQfKcqVwQ',
+        title: 'Rafelito Polanco',
+        description: 'Rafelito Polanco en Manacla, San Jose de las Matas, Sajoma, Santiago, RD - Julio 27, 2018',
+        uploadDate: null,
+        type: _domain_card_model__WEBPACK_IMPORTED_MODULE_1__["CardType"].Video
+    }, {
+        id: '13',
+        youTubeVideo: 'rwtZT9w2IsI',
+        title: 'Fefita la Grande',
+        description: 'Fefita la Grande en Manacla, San Jose de las Matas, Sajoma, Santiago, RD - Julio 29, 2018',
+        uploadDate: null,
+        type: _domain_card_model__WEBPACK_IMPORTED_MODULE_1__["CardType"].Video
+    }, {
         id: '1',
         image: 'coffee_tree.jpg',
         title: 'Café',
         description: 'La comunidad de Manacla siembra café para uso personal y para vender.',
-        uploadDate: null
+        uploadDate: null,
+        type: _domain_card_model__WEBPACK_IMPORTED_MODULE_1__["CardType"].Image
     }, {
         id: '2',
         image: 'OldHouse.jpg',
         title: 'Casa antigua en Manacla',
         description: 'Esta casa antigua muestra algunos de los colores típicos de las casas de Manacla.',
-        uploadDate: null
+        uploadDate: null,
+        type: _domain_card_model__WEBPACK_IMPORTED_MODULE_1__["CardType"].Image
     }, {
         id: '3',
         image: 'nature.jpg',
         title: 'Naturaleza',
         description: 'Naturaleza en su máxima expresión. Manacla es rica en toda la naturaleza que la rodea.',
-        uploadDate: null
+        uploadDate: null,
+        type: _domain_card_model__WEBPACK_IMPORTED_MODULE_1__["CardType"].Image
     }, {
         id: '4',
         image: 't.jpg',
         title: 'Tuna (Nopal)',
         description: '',
-        uploadDate: null
+        uploadDate: null,
+        type: _domain_card_model__WEBPACK_IMPORTED_MODULE_1__["CardType"].Image
     }, {
         id: '5',
         image: 'flower.jpg',
-        title: 'Flower',
+        title: 'Jardin de Flores',
         description: '',
-        uploadDate: null
+        uploadDate: null,
+        type: _domain_card_model__WEBPACK_IMPORTED_MODULE_1__["CardType"].Image
     }, {
         id: '6',
         image: 'rio.jpg',
-        title: 'River',
+        title: 'Rio Manacla',
         description: '',
-        uploadDate: null
+        uploadDate: null,
+        type: _domain_card_model__WEBPACK_IMPORTED_MODULE_1__["CardType"].Image
     }
 ];
+
+
+/***/ }),
+
+/***/ "./src/app/domain/card.model.ts":
+/*!**************************************!*\
+  !*** ./src/app/domain/card.model.ts ***!
+  \**************************************/
+/*! exports provided: Card, CardType */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Card", function() { return Card; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "CardType", function() { return CardType; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+
+class Card {
+}
+var CardType;
+(function (CardType) {
+    CardType["Image"] = "image";
+    CardType["Video"] = "video";
+})(CardType || (CardType = {}));
 
 
 /***/ }),

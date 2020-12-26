@@ -1,6 +1,6 @@
 <div class="columns features" *ngFor="let cardArray of cards">
     <div class="column is-4" *ngFor="let card of cardArray">
-        <app-card image="assets/images/{{card.image}}" title="{{card.title}}" description="{{card.description}}">
+        <app-card [card]="card">
         </app-card>
     </div>
 </div>

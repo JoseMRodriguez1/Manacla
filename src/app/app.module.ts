@@ -29,7 +29,7 @@ import { GalleryComponent } from './components/gallery/gallery.component';
     BrowserModule,
     AppRoutingModule,
     AngularFireModule.initializeApp(environment.firebase),
-    AngularFirestoreModule,
+    AngularFirestoreModule
   ],
   providers: [DatePipe],
   bootstrap: [AppComponent]

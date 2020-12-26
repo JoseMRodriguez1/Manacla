@@ -1,14 +1,22 @@
 <div class="card is-shady">
   <div class="card-image">
-    <figure class="image is-4by3">
-      <img src="{{ image }}" alt="{{ title }}" class="modal-button"
+    <figure class="image is-4by3" *ngIf="card.type === 'image'">
+      <img src="assets/images/{{ card.image }}" alt="{{ card.title }}" class="modal-button"
         data-target="modal-image2">
+    </figure>
+    <figure *ngIf="card.type === 'video'" class="image is-16by9">
+      <iframe class="has-ratio"
+      width="560" height="315" 
+      [src]="url" 
+      frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+      allowfullscreen>
+    </iframe>
     </figure>
   </div>
   <div class="card-content">
     <div class="content">
-      <h4>{{ title }}</h4>
-      <p>{{ description }}</p>
+      <h4>{{ card.title }}</h4>
+      <p>{{ card.description }}</p>
     </div>
   </div>
 </div>
