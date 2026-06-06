@@ -1,0 +1,38 @@
+[
+  {
+    "id": "prod1",
+    "title": "Café Orgánico Manacla",
+    "description": "Cultivado en las fértiles montañas de Manacla, nuestro café es 100% orgánico y de comercio justo.",
+    "imageUrl": "/assets/img/coffee.jpg",
+    "badge": "Nuevo",
+    "category": "agriculture"
+  },
+  {
+    "id": "prod2",
+    "title": "Cacao Premium",
+    "description": "Granos de cacao seleccionados a mano, perfectos para chocolate artesanal y repostería.",
+    "imageUrl": "/assets/img/cacao.jpg",
+    "category": "agriculture"
+  },
+  {
+    "id": "prod3",
+    "title": "Miel Pura de Abeja",
+    "description": "Cosechada de flores silvestres de la región, nuestra miel es natural y deliciosa.",
+    "imageUrl": "/assets/img/honey.jpg",
+    "category": "agriculture"
+  },
+  {
+    "id": "prod4",
+    "title": "Ganado Vacuno de Pastoreo",
+    "description": "Criado en amplios pastizales, nuestro ganado ofrece carne de alta calidad.",
+    "imageUrl": "/assets/img/cattle.jpg",
+    "category": "livestock"
+  },
+  {
+    "id": "prod5",
+    "title": "Plátanos Frescos",
+    "description": "Directo de nuestras fincas, plátanos verdes y maduros, ricos en nutrientes.",
+    "imageUrl": "/assets/img/plantains.jpg",
+    "category": "agriculture"
+  }
+]

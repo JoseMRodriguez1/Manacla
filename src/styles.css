@@ -1,8 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Set default body background and text colors using Tailwind classes */
+body {
+  @apply bg-bg text-text;
+}
+
 /* You can add global styles to this file, and also import other style files */
 
-html,body {
-	font-family: 'Open Sans', serif;
-}
 .hero.is-dark {
 	background: linear-gradient(
 		rgba(0, 0, 0, 0.7),
