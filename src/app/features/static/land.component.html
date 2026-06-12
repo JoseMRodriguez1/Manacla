@@ -1,0 +1,33 @@
+<section class="relative min-h-[56vh] flex items-end overflow-hidden bg-brand-primary">
+  <img ngSrc="/assets/images/coffee_tree.jpg" alt="Café cultivado en Manacla" fill priority class="object-cover" />
+  <div class="absolute inset-0 bg-gradient-to-t from-black/75 via-black/35 to-black/20"></div>
+  <div class="relative z-10 max-w-7xl mx-auto w-full px-5 pb-14 pt-32 text-white">
+    <p class="text-sm uppercase tracking-[0.28em] text-white/75 font-bold mb-3">Nuestra tierra</p>
+    <h1 class="text-5xl md:text-6xl font-bold max-w-3xl">Agricultura, agua y vida de montaña</h1>
+  </div>
+</section>
+
+<section class="py-20 px-5 max-w-7xl mx-auto">
+  <div class="grid lg:grid-cols-[0.85fr_1.15fr] gap-12 items-start mb-14">
+    <div>
+      <h2 class="text-4xl font-bold text-brand-primary mb-5">Lo que crece aquí</h2>
+      <p class="text-lg text-gray-700 leading-relaxed">
+        La tierra de Manacla sostiene café, cultivos, patios, paisajes verdes y pequeños trabajos familiares. También sostiene algo más difícil de medir: el ritmo rural, los saberes compartidos y la relación cercana con el paisaje.
+      </p>
+    </div>
+    <div class="grid sm:grid-cols-2 gap-5">
+      <div class="relative aspect-[4/3] overflow-hidden rounded-lg bg-gray-100">
+        <img ngSrc="/assets/images/nature.jpg" alt="Naturaleza de Manacla" fill class="object-cover" sizes="(max-width: 1024px) 50vw, 33vw" />
+      </div>
+      <div class="relative aspect-[4/3] overflow-hidden rounded-lg bg-gray-100">
+        <img ngSrc="/assets/images/OldHouse.jpg" alt="Casa antigua en Manacla" fill class="object-cover" sizes="(max-width: 1024px) 50vw, 33vw" />
+      </div>
+    </div>
+  </div>
+
+  <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+    @for (product of content.allProducts(); track product.id) {
+      <app-ui-card [item]="product" />
+    }
+  </div>
+</section>

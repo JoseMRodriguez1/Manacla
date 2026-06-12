@@ -1,0 +1,63 @@
+<section class="relative min-h-[56vh] flex items-end overflow-hidden bg-brand-primary">
+  <img ngSrc="/assets/images/background.jpg" alt="Montañas de Manacla" fill priority class="object-cover" />
+  <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/35 to-black/25"></div>
+  <div class="relative z-10 max-w-7xl mx-auto w-full px-5 pb-14 pt-32 text-white">
+    <p class="text-sm uppercase tracking-[0.28em] text-white/75 font-bold mb-3">Sobre nosotros</p>
+    <h1 class="text-5xl md:text-6xl font-bold max-w-3xl">Una comunidad con raíces profundas</h1>
+  </div>
+</section>
+
+<section class="py-20 px-5 bg-white">
+  <div class="max-w-7xl mx-auto grid lg:grid-cols-[0.8fr_1.2fr] gap-12">
+    <div>
+      <h2 class="text-3xl font-bold text-brand-primary mb-4">Manacla, Sajoma</h2>
+      <p class="text-lg text-gray-700 leading-relaxed">
+        Manacla es un campo de San José de las Matas, en Santiago, República Dominicana. Este sitio existe para reunir su memoria visual, sus historias, sus productos y los vínculos de quienes aman esta tierra.
+      </p>
+    </div>
+    <div class="grid sm:grid-cols-3 gap-5">
+      <div class="border-l-4 border-brand-accent pl-5">
+        <h3 class="font-bold text-brand-primary mb-2">Historia</h3>
+        <p class="text-gray-600">Casas antiguas, caminos rurales y recuerdos familiares que siguen contando de dónde venimos.</p>
+      </div>
+      <div class="border-l-4 border-brand-accent pl-5">
+        <h3 class="font-bold text-brand-primary mb-2">Naturaleza</h3>
+        <p class="text-gray-600">Ríos, flores, cafetales y montañas forman el paisaje que distingue a Manacla.</p>
+      </div>
+      <div class="border-l-4 border-brand-accent pl-5">
+        <h3 class="font-bold text-brand-primary mb-2">Comunidad</h3>
+        <p class="text-gray-600">Fotos, videos y aportes de su gente mantienen el proyecto creciendo con identidad propia.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="py-20 bg-brand-bg px-5">
+  <div class="max-w-7xl mx-auto">
+    <div class="text-center mb-16">
+      <p class="text-sm uppercase tracking-[0.28em] text-brand-accent font-bold mb-3">Nuestra Gente</p>
+      <h2 class="text-4xl font-bold text-brand-primary">Gente de Manacla</h2>
+      <p class="text-lg text-gray-600 mt-4 max-w-2xl mx-auto">El corazón de nuestra tierra son las personas que la trabajan, la viven y la cuidan cada día.</p>
+    </div>
+
+    <div class="grid md:grid-cols-3 gap-8">
+      @for (person of content.people(); track person.id) {
+        <div class="bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-shadow group">
+          <div class="relative h-80 overflow-hidden">
+            <img [ngSrc]="person.imageUrl" [alt]="person.name" fill class="object-cover group-hover:scale-105 transition-transform duration-500" />
+            <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
+            <div class="absolute bottom-6 left-6 text-white">
+              <h3 class="text-xl font-bold">{{ person.name }}</h3>
+              <p class="text-sm text-white/80">{{ person.role }}</p>
+            </div>
+          </div>
+          <div class="p-8">
+            <p class="text-gray-700 italic leading-relaxed">
+              "{{ person.quote }}"
+            </p>
+          </div>
+        </div>
+      }
+    </div>
+  </div>
+</section>

@@ -1,0 +1,50 @@
+[
+  {
+    "id": "1",
+    "title": "Café Dominicano",
+    "description": "La comunidad de Manacla siembra café para uso personal y para vender. Sus montañas ayudan a crear un grano aromático y lleno de carácter.",
+    "imageUrl": "/assets/images/coffee_tree.jpg",
+    "badge": "Cultivo local",
+    "category": "agriculture"
+  },
+  {
+    "id": "2",
+    "title": "Tuna (Nopal)",
+    "description": "Plantas resistentes que forman parte del paisaje rural y de los patios del campo.",
+    "imageUrl": "/assets/images/t.jpg",
+    "badge": "Flora silvestre",
+    "category": "agriculture"
+  },
+  {
+    "id": "3",
+    "title": "Paisajes de pasto y montaña",
+    "description": "Verdes extensiones que sostienen la vida rural, los animales y la agricultura familiar.",
+    "imageUrl": "/assets/images/nature.jpg",
+    "badge": "Paisaje local",
+    "category": "livestock"
+  },
+  {
+    "id": "4",
+    "title": "Flores y patios",
+    "description": "Jardines y flores que acompañan las casas, caminos y espacios familiares de Manacla.",
+    "imageUrl": "/assets/images/flower.jpg",
+    "badge": "Belleza natural",
+    "category": "agriculture"
+  },
+  {
+    "id": "5",
+    "title": "Deporte en Manacla",
+    "description": "El deporte une a la comunidad cada fin de semana. El play de Manacla es el escenario de emocionantes partidos entre jóvenes y adultos.",
+    "imageUrl": "/assets/images/baseball.jpg",
+    "badge": "Deporte",
+    "category": "recreation"
+  },
+  {
+    "id": "6",
+    "title": "Tradición del Domino",
+    "description": "Más que un juego, una tradición social en los colmados y bajo la sombra de los árboles, donde se comparten historias y risas.",
+    "imageUrl": "/assets/images/domino.jpg",
+    "badge": "Cultura",
+    "category": "culture"
+  }
+]

@@ -7,15 +7,6 @@ import { FooterComponent } from './shared/components/footer/footer.component';
   selector: 'app-root',
   standalone: true,
   imports: [RouterOutlet, HeaderComponent, FooterComponent],
-  template: `
-    <app-header></app-header>
-    <main>
-      <router-outlet></router-outlet>
-    </main>
-    <app-footer></app-footer>
-  `,
-  styles: []
+  templateUrl: './app.component.html'
 })
-export class AppComponent {
-  title = 'Manacla';
-}
+export class AppComponent {}

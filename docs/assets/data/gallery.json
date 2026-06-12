@@ -1,0 +1,104 @@
+[
+  {
+    "id": "1",
+    "title": "Café",
+    "description": "La comunidad de Manacla siembra café para uso personal y para vender.",
+    "imageUrl": "/assets/images/coffee_tree.jpg",
+    "category": "Agricultura",
+    "type": "image"
+  },
+  {
+    "id": "2",
+    "title": "Casa antigua en Manacla",
+    "description": "Una casa antigua que muestra algunos colores típicos de la comunidad.",
+    "imageUrl": "/assets/images/OldHouse.jpg",
+    "category": "Nuestra Gente",
+    "type": "image"
+  },
+  {
+    "id": "3",
+    "title": "Naturaleza",
+    "description": "Naturaleza en su máxima expresión alrededor de Manacla.",
+    "imageUrl": "/assets/images/nature.jpg",
+    "category": "Paisajes",
+    "type": "image"
+  },
+  {
+    "id": "4",
+    "title": "Tuna (Nopal)",
+    "description": "Plantas resistentes que forman parte del paisaje rural y de los patios del campo.",
+    "imageUrl": "/assets/images/t.jpg",
+    "category": "Paisajes",
+    "type": "image"
+  },
+  {
+    "id": "5",
+    "title": "Jardín de flores",
+    "description": "Jardines y flores que acompañan las casas, caminos y espacios familiares de Manacla.",
+    "imageUrl": "/assets/images/flower.jpg",
+    "category": "Paisajes",
+    "type": "image"
+  },
+  {
+    "id": "6",
+    "title": "Río Manacla",
+    "description": "Las aguas frescas del río que atraviesa nuestra comunidad, un lugar de encuentro y vida.",
+    "imageUrl": "/assets/images/rio.jpg",
+    "category": "Paisajes",
+    "type": "image"
+  },
+  {
+    "id": "7",
+    "title": "Rafelito Polanco",
+    "description": "Rafelito Polanco en Manacla, San José de las Matas, Sajoma, Santiago, RD - Julio 27, 2018.",
+    "imageUrl": "https://img.youtube.com/vi/vmZjRkGnqKw/hqdefault.jpg",
+    "category": "Videos",
+    "type": "video",
+    "videoId": "vmZjRkGnqKw"
+  },
+  {
+    "id": "8",
+    "title": "Fabia recordando cómo montar mulo",
+    "description": "Fabia montando mulo en Manacla.",
+    "imageUrl": "https://img.youtube.com/vi/esD50pW4qKM/hqdefault.jpg",
+    "category": "Videos",
+    "type": "video",
+    "videoId": "esD50pW4qKM"
+  },
+  {
+    "id": "9",
+    "title": "Fefita la Grande",
+    "description": "Fefita la Grande en Manacla, San José de las Matas, Sajoma, Santiago, RD - Julio 29, 2018.",
+    "imageUrl": "https://img.youtube.com/vi/rwtZT9w2IsI/hqdefault.jpg",
+    "category": "Videos",
+    "type": "video",
+    "videoId": "rwtZT9w2IsI"
+  },
+  {
+    "id": "10",
+    "title": "Los Chistes Colorao de Arcadio en Manacla",
+    "description": "Arcadio, un residente de Manacla, compartiendo su vida y experiencias en la comunidad.",
+    "imageUrl": "https://img.youtube.com/vi/sU60u0VO9fA/hqdefault.jpg",
+    "category": "Videos",
+    "type": "video",
+    "videoId": "sU60u0VO9fA"
+  },
+  {
+    "id": "11",
+    "title": "Rafelito Polanco",
+    "description": "Rafelito Polanco en Manacla, San Jose de las Matas, Sajoma, Santiago, RD - Julio 27, 2018",
+    "imageUrl": "https://img.youtube.com/vi/HgwQfKcqVwQ/hqdefault.jpg",
+    "category": "Videos",
+    "type": "video",
+    "videoId": "HgwQfKcqVwQ"
+  },
+  {
+    "id": "12",
+    "title": "Jesús Espinal y su Maquinaría Típica",
+    "description": "Jesús Espinal y su Maquinaría Típica en Manacla - Julio 30, 2021",
+    "imageUrl": "https://img.youtube.com/vi/dHrfQwYhBnQ/hqdefault.jpg",
+    "category": "Videos",
+    "type": "video",
+    "videoId": "dHrfQwYhBnQ"
+  }
+]

@@ -1,0 +1,30 @@
+[
+  {
+    "id": "1",
+    "name": "Arcadio",
+    "role": "Residente de Manacla",
+    "quote": "Toda una vida en estas tierras, donde cada rincón tiene una historia que contar.",
+    "imageUrl": "/assets/images/Arcadio_Reyes.png"
+  },
+  {
+    "id": "2",
+    "name": "Toño",
+    "role": "Criador de Cerdos",
+    "quote": "La crianza de cerdos es una tradición que mantenemos con orgullo para el sustento de nuestra comunidad.",
+    "imageUrl": "/assets/images/Tono.png"
+  },
+  {
+    "id": "3",
+    "name": "Carlos",
+    "role": "Carnicero",
+    "quote": "Ofrecer productos frescos y de calidad es mi compromiso con la mesa de cada familia en nuestra comunidad.",
+    "imageUrl": "/assets/images/Carlos.png"
+  },
+  {
+    "id": "4",
+    "name": "Fabia",
+    "role": "Residente",
+    "quote": "No hay nada como recorrer estos caminos y sentir el aire puro de la sierra.",
+    "imageUrl": "https://img.youtube.com/vi/esD50pW4qKM/hqdefault.jpg"
+  }
+]

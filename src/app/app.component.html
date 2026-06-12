@@ -1,11 +1,5 @@
-<section class="hero is-dark is-fullheight">
-  <app-header [companyName]="companyName"></app-header>
-
-  <div class="hero-body">
-    <div class="container">
-      <router-outlet></router-outlet>
-    </div>
-  </div>
-
-  <app-footer></app-footer>
-</section>
+<app-header />
+<main class="min-h-screen">
+  <router-outlet />
+</main>
+<app-footer />

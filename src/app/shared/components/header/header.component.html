@@ -1,0 +1,32 @@
+<header
+  [ngClass]="isScrolled ? 'bg-brand-primary shadow-md' : 'bg-gradient-to-b from-black/55 to-transparent'"
+  class="fixed top-0 w-full transition-all duration-300 z-50 text-white">
+  <nav class="flex justify-between items-center px-5 py-4 md:px-6 md:py-6 max-w-7xl mx-auto">
+    <a routerLink="/" class="text-2xl font-bold tracking-wider">MANACLA</a>
+
+    <div class="hidden md:flex gap-8 font-medium">
+      <a routerLink="/" routerLinkActive="opacity-100" [routerLinkActiveOptions]="{ exact: true }" class="opacity-80 hover:opacity-100 transition-opacity">Inicio</a>
+      <a routerLink="/nosotros" routerLinkActive="opacity-100" class="opacity-80 hover:opacity-100 transition-opacity">Nosotros</a>
+      <a routerLink="/nuestra-tierra" routerLinkActive="opacity-100" class="opacity-80 hover:opacity-100 transition-opacity">Nuestra Tierra</a>
+      <a routerLink="/galeria" routerLinkActive="opacity-100" class="opacity-80 hover:opacity-100 transition-opacity">Galería</a>
+      <a routerLink="/contacto" routerLinkActive="opacity-100" class="opacity-80 hover:opacity-100 transition-opacity">Contacto</a>
+    </div>
+
+    <button type="button" class="md:hidden size-10 grid place-items-center rounded-full bg-white/10" (click)="menuOpen.set(!menuOpen())" aria-label="Abrir menú">
+      <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path *ngIf="!menuOpen()" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+        <path *ngIf="menuOpen()" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+      </svg>
+    </button>
+  </nav>
+
+  @if (menuOpen()) {
+    <div class="md:hidden mx-4 mb-4 rounded-lg bg-white text-brand-text shadow-xl overflow-hidden">
+      <a routerLink="/" (click)="menuOpen.set(false)" class="block px-5 py-3 border-b border-gray-100">Inicio</a>
+      <a routerLink="/nosotros" (click)="menuOpen.set(false)" class="block px-5 py-3 border-b border-gray-100">Nosotros</a>
+      <a routerLink="/nuestra-tierra" (click)="menuOpen.set(false)" class="block px-5 py-3 border-b border-gray-100">Nuestra Tierra</a>
+      <a routerLink="/galeria" (click)="menuOpen.set(false)" class="block px-5 py-3 border-b border-gray-100">Galería</a>
+      <a routerLink="/contacto" (click)="menuOpen.set(false)" class="block px-5 py-3">Contacto</a>
+    </div>
+  }
+</header>
