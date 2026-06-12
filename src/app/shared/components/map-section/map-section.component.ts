@@ -1,11 +1,11 @@
 import { Component, inject } from '@angular/core';
 import { ContentService } from '../../../core/services/content.service';
-import { NgFor, NgOptimizedImage } from '@angular/common';
+import { NgOptimizedImage } from '@angular/common';
 
 @Component({
   selector: 'app-map-section',
   standalone: true,
-  imports: [NgFor, NgOptimizedImage],
+  imports: [NgOptimizedImage],
   template: `
     <section class="py-20 bg-gray-50 overflow-hidden">
       <div class="max-w-7xl mx-auto px-5">
