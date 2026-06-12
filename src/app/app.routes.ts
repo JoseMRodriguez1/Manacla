@@ -8,5 +8,6 @@ export const routes: Routes = [
   { path: 'nuestra-tierra', loadComponent: () => import('./features/static/land.component').then(m => m.LandComponent) },
   { path: 'galeria', loadComponent: () => import('./features/galeria/galeria.component').then(m => m.GaleriaComponent) },
   { path: 'contacto', loadComponent: () => import('./features/static/contact.component').then(m => m.ContactComponent) },
+  { path: 'calendario', loadComponent: () => import('./features/static/calendar.component').then(m => m.CalendarComponent) },
   { path: '**', redirectTo: '' }
 ];
