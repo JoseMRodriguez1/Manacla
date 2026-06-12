@@ -1,0 +1,86 @@
+@if (content.homeContent(); as hero) {
+  <section class="relative min-h-[92vh] w-full flex items-center justify-center overflow-hidden bg-brand-primary">
+    <div class="absolute inset-0 z-0">
+      <img [ngSrc]="hero.backgroundMediaUrl" alt="Paisaje de Manacla" fill priority class="object-cover" />
+      <div class="absolute inset-0 bg-gradient-to-b from-black/65 via-black/35 to-black/55"></div>
+    </div>
+    <div class="relative z-10 text-center px-5 max-w-4xl mx-auto pt-20">
+      <div class="mb-8 flex justify-center">
+        <app-weather-widget />
+      </div>
+      <p class="text-sm md:text-base uppercase tracking-[0.35em] text-white/80 mb-4">San José de las Matas</p>
+      <h1 class="text-5xl md:text-7xl font-bold text-white mb-6 tracking-tight drop-shadow-lg">{{ hero.title }}</h1>
+      <p class="text-xl md:text-2xl text-gray-100 mb-10 font-light drop-shadow-md">{{ hero.subtitle }}</p>
+      <a routerLink="/nuestra-tierra" class="inline-flex bg-brand-primary hover:bg-brand-accent text-white font-semibold py-4 px-8 rounded-full transition-colors shadow-lg">
+        {{ hero.primaryCta }}
+      </a>
+    </div>
+  </section>
+}
+
+<section class="py-20 px-5 bg-white">
+  <div class="max-w-7xl mx-auto grid lg:grid-cols-[0.95fr_1.05fr] gap-12 items-center">
+    <div>
+      <p class="text-sm uppercase tracking-[0.28em] text-brand-accent font-bold mb-3">Comunidad de montaña</p>
+      <h2 class="text-4xl md:text-5xl font-bold text-brand-primary mb-6">Un campo vivo entre tradición, cosecha y naturaleza</h2>
+      <div class="space-y-5 text-lg text-gray-700 leading-relaxed">
+        <p>
+          Manacla es un hermoso campo en San José de las Matas, República Dominicana. Su vida cotidiana está marcada por la agricultura, los ríos, las casas familiares y la calidez de una comunidad que conserva sus raíces.
+        </p>
+      </div>
+      <div class="mt-8 flex flex-wrap gap-3">
+        <a routerLink="/nosotros" class="px-6 py-3 rounded-full bg-brand-primary text-white font-semibold hover:bg-brand-accent transition-colors">Conoce Manacla</a>
+        <a routerLink="/galeria" class="px-6 py-3 rounded-full border border-brand-primary text-brand-primary font-semibold hover:bg-brand-primary hover:text-white transition-colors">Ver galería</a>
+      </div>
+    </div>
+    <div class="relative aspect-[4/3] overflow-hidden rounded-lg shadow-xl bg-gray-100">
+      <img ngSrc="/assets/images/rio.jpg" alt="Río de Manacla" fill class="object-cover" sizes="(max-width: 1024px) 100vw, 50vw" />
+    </div>
+  </div>
+</section>
+
+<app-map-section></app-map-section>
+
+<section class="py-20 bg-gray-50">
+  <div class="max-w-7xl mx-auto px-5">
+    <div class="text-center mb-14">
+      <p class="text-sm uppercase tracking-[0.28em] text-brand-accent font-bold mb-3">Nuestra Gente</p>
+      <h2 class="text-4xl font-bold text-brand-primary mb-4">Voces de la comunidad</h2>
+    </div>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+      @for (person of content.people().slice(0, 3); track person.id) {
+        <div class="bg-white p-8 rounded-2xl shadow-sm border border-gray-100 flex flex-col items-center text-center">
+          <div class="relative w-24 h-24 mb-6 rounded-full overflow-hidden ring-4 ring-brand-accent/20">
+            <img [ngSrc]="person.imageUrl" [alt]="person.name" fill class="object-cover" />
+          </div>
+          <p class="text-lg italic text-gray-700 mb-6">"{{ person.quote }}"</p>
+          <div>
+            <h4 class="font-bold text-brand-primary">{{ person.name }}</h4>
+            <p class="text-sm text-brand-accent uppercase tracking-wider">{{ person.role }}</p>
+          </div>
+        </div>
+      }
+    </div>
+    <div class="mt-12 text-center">
+      <a routerLink="/nosotros" class="text-brand-primary font-bold hover:text-brand-accent transition-colors inline-flex items-center gap-2">
+        Conoce a más personas
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-4 h-4">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
+        </svg>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="py-20 px-5 max-w-7xl mx-auto">
+  <div class="text-center mb-14">
+    <p class="text-sm uppercase tracking-[0.28em] text-brand-accent font-bold mb-3">Nuestra Tierra</p>
+    <h2 class="text-4xl font-bold text-brand-primary mb-4">Productos y vida rural</h2>
+    <p class="text-lg text-gray-600 max-w-2xl mx-auto">Café, cultivos, patios y paisajes fértiles cuentan parte de la economía y la identidad de Manacla.</p>
+  </div>
+  <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+    @for (product of content.allProducts(); track product.id) {
+      <app-ui-card [item]="product" />
+    }
+  </div>
+</section>

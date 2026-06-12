@@ -1,0 +1,34 @@
+[
+  {
+    "id": "1",
+    "name": "Centro de Manacla",
+    "description": "El corazón de nuestra comunidad y principal punto de referencia.",
+    "lat": 19.291090,
+    "lng": -71.091804,
+    "type": "landmark"
+  },
+  {
+    "id": "2",
+    "name": "Puente El paso del Ganado (Rio amina)",
+    "description": "Puente sobre el principal afluente que cruza la zona, ideal para refrescarse.",
+    "lat": 19.272090,
+    "lng": -71.062804,
+    "type": "river"
+  },
+  {
+    "id": "3",
+    "name": "Parque Nacional Jose Armando Bermúdez",
+    "description": "Reserva natural protegida con senderos y una biodiversidad única.",
+    "lat": 19.279090,
+    "lng": -71.115804,
+    "type": "park"
+  },
+  {
+    "id": "4",
+    "name": "Play de Béisbol Manacla",
+    "description": "Punto de encuentro para los torneos locales y la recreación deportiva de los jóvenes.",
+    "lat": 19.285090,
+    "lng": -71.085804,
+    "type": "sport"
+  }
+]
