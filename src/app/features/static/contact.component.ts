@@ -27,7 +27,7 @@ export class ContactComponent {
     formData.append('subject', this.subject);
     formData.append('message', this.message);
 
-    this.http.post(this.googleAppsScriptUrl, formData).subscribe({
+    this.http.post(this.googleAppsScriptUrl, formData, { responseType: 'text' }).subscribe({ // Added responseType: 'text'
       next: (response) => {
         console.log('Form submitted successfully!', response);
         alert('¡Mensaje enviado con éxito! Gracias por contactarnos.');
