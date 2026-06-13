@@ -15,19 +15,22 @@ export class ContactComponent {
   email: string = '';
   subject: string = '';
   message: string = '';
+  isLoading: boolean = false; // Add loading state
 
   private googleAppsScriptUrl = 'https://script.google.com/macros/s/AKfycbyp1aNg5q5IdYd4q52Kqsn5zORlGZtPQh7dp0Jln0VcjokNU0iTuLLj32aVmdR6AyA/exec';
 
   constructor(private http: HttpClient) {} // Inject HttpClient
 
   onSubmit() {
+    this.isLoading = true; // Disable button on submit
+
     const formData = new FormData();
     formData.append('name', this.name);
     formData.append('email', this.email);
     formData.append('subject', this.subject);
     formData.append('message', this.message);
 
-    this.http.post(this.googleAppsScriptUrl, formData, { responseType: 'text' }).subscribe({ // Added responseType: 'text'
+    this.http.post(this.googleAppsScriptUrl, formData, { responseType: 'text' }).subscribe({
       next: (response) => {
         console.log('Form submitted successfully!', response);
         alert('¡Mensaje enviado con éxito! Gracias por contactarnos.');
@@ -35,10 +38,12 @@ export class ContactComponent {
         this.email = '';
         this.subject = '';
         this.message = '';
+        this.isLoading = false; // Re-enable button on success
       },
       error: (error) => {
         console.error('Error submitting form:', error);
         alert('Hubo un error al enviar tu mensaje. Por favor, inténtalo de nuevo más tarde.');
+        this.isLoading = false; // Re-enable button on error
       }
     });
   }
